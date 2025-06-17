@@ -6,7 +6,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved | Progress |
 |------------|--------|----------|
-| 🟢 Easy    | 1      | ⭐ Just getting started! |
+| 🟢 Easy    | 2      | ⭐ Just getting started! |
 | 🟡 Medium  | 0      | 🎯 Coming soon |
 | 🔴 Hard    | 0      | 🚀 Future goal |
 | **Total**  | **1**  | **Beginning the journey** |
