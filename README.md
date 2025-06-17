@@ -25,6 +25,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🟢 Easy Problems
 - [2235. Add Two Integers](easy/2235-add-two-integers.py) - Hash table approach ✅
+- [01. Two Sum](easy/001-two-sum.py) - Hash table approach
 
 ### 🟡 Medium Problems  
 *Coming soon...* 🎯
