@@ -6,10 +6,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved | Progress |
 |------------|--------|----------|
-| 🟢 Easy    | 2      | ⭐ Just getting started! |
+| 🟢 Easy    | 3      | ⭐ Just getting started! |
 | 🟡 Medium  | 0      | 🎯 Coming soon |
 | 🔴 Hard    | 0      | 🚀 Future goal |
-| **Total**  | **2**  | **Beginning the journey** |
+| **Total**  | **3**  | **Beginning the journey** |
 
 ## 🗂️ Repository Structure
 
@@ -26,6 +26,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 ### 🟢 Easy Problems
 - [2235. Add Two Integers](easy/2235-add-two-integers.py) - Hash table approach ✅
 - [01. Two Sum](easy/001-two-sum.py) - Hash table approach
+- [027. Remove Element](easy/027-remove-element.py)
 
 ### 🟡 Medium Problems  
 *Coming soon...* 🎯
