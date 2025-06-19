@@ -4,12 +4,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ## 📊 Progress Overview
 
-| Difficulty | Solved | Progress |
-|------------|--------|----------|
-| 🟢 Easy    | 3      | ⭐ Just getting started! |
-| 🟡 Medium  | 0      | 🎯 Coming soon |
-| 🔴 Hard    | 0      | 🚀 Future goal |
-| **Total**  | **3**  | **Beginning the journey** |
+| Difficulty | Solved |
+|------------|--------|
+| 🟢 Easy    | 3      |
+| 🟡 Medium  | 1      |
+| 🔴 Hard    | 0      |
+| **Total**  | **4**  |
 
 ## 🗂️ Repository Structure
 
@@ -29,7 +29,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [027. Remove Element](easy/027-remove-element.py)
 
 ### 🟡 Medium Problems  
-*Coming soon...* 🎯
+- [002. Add Two Numbers](medium/002-add-two-numbers.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
