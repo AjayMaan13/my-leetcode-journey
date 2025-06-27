@@ -6,10 +6,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 4      |
+| 🟢 Easy    | 5      |
 | 🟡 Medium  | 1      |
 | 🔴 Hard    | 0      |
-| **Total**  | **5**  |
+| **Total**  | **6**  |
 
 ## 🗂️ Repository Structure
 
@@ -28,6 +28,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [01. Two Sum](easy/001-two-sum.py) - Hash table approach
 - [027. Remove Element](easy/027-remove-element.py)
 - [141. Linked List Cycle](easy/141-linked-list-cycle.py)
+- [026. Remove Duplicated from Sorted Array](easy/026-remove-duplicates-from-sorted-array.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
