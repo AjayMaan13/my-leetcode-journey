@@ -7,9 +7,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 6      |
-| 🟡 Medium  | 1      |
+| 🟡 Medium  | 2      |
 | 🔴 Hard    | 0      |
-| **Total**  | **7**  |
+| **Total**  | **8**  |
 
 ## 🗂️ Repository Structure
 
@@ -33,6 +33,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
+- [189. Rotate Array](/medium/189-rotate-array.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
