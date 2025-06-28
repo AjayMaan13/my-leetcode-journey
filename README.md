@@ -6,10 +6,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 5      |
+| 🟢 Easy    | 6      |
 | 🟡 Medium  | 1      |
 | 🔴 Hard    | 0      |
-| **Total**  | **6**  |
+| **Total**  | **7**  |
 
 ## 🗂️ Repository Structure
 
@@ -29,6 +29,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [027. Remove Element](easy/027-remove-element.py)
 - [141. Linked List Cycle](easy/141-linked-list-cycle.py)
 - [026. Remove Duplicated from Sorted Array](easy/026-remove-duplicates-from-sorted-array.py)
+- [021. Merge Two Sorted Lists](easy/021-merge-two-sorted-lists.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
