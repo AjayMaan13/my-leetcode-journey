@@ -1,5 +1,8 @@
 # 🧩 My LeetCode Journey
 
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/AjayMaan13/)
+
+
 Welcome to my coding practice repository! Starting my journey to improve problem-solving skills one solution at a time.
 
 ## 📊 Progress Overview
