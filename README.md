@@ -6,10 +6,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 8      |
+| 🟢 Easy    | 12      |
 | 🟡 Medium  | 3      |
 | 🔴 Hard    | 0      |
-| **Total**  | **11**  |
+| **Total**  | **15**  |
 
 ## 🗂️ Repository Structure
 
@@ -32,6 +32,11 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [021. Merge Two Sorted Lists](easy/021-merge-two-sorted-lists.py)
 - [125. Is Palindrome](easy/125-is-palindrome.py)
 - [392. Is Sequence](easy/392-is-sequence.py)
+- [383. Ransom Note](easy/383-ransom-note.py)
+- [205. Isomorphic Strings](easy/205-isomorphic-strings.py)
+- [020. Valid Parentheses](easy/020-valid-parentheses.py)
+- [206. Reverse Linked List](easy/206-reverse-linked-list.py)
+
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
