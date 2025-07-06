@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 12      |
+| 🟢 Easy    | 13      |
 | 🟡 Medium  | 3      |
 | 🔴 Hard    | 0      |
-| **Total**  | **15**  |
+| **Total**  | **16**  |
 
 ## 🗂️ Repository Structure
 
@@ -39,6 +39,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [205. Isomorphic Strings](easy/205-isomorphic-strings.py)
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
+- [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 
 
 ### 🟡 Medium Problems  
