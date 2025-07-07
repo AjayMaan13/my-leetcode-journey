@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 13      |
-| 🟡 Medium  | 3      |
+| 🟡 Medium  | 4      |
 | 🔴 Hard    | 0      |
-| **Total**  | **16**  |
+| **Total**  | **17**  |
 
 ## 🗂️ Repository Structure
 
@@ -40,12 +40,14 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
+- [100. Is Same Tree](easy/100-is-same-tree.py)
 
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
 - [189. Rotate Array](/medium/189-rotate-array.py)
 - [126. Two Sum II](medium/126-two-sum-II.py)
+- [199. Binary Tree Right Side View](medium/199-binary-tree-right-side-view.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
