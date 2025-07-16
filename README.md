@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 13      |
+| 🟢 Easy    | 15      |
 | 🟡 Medium  | 4      |
 | 🔴 Hard    | 0      |
-| **Total**  | **17**  |
+| **Total**  | **19**  |
 
 ## 🗂️ Repository Structure
 
@@ -41,6 +41,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 - [100. Is Same Tree](easy/100-is-same-tree.py)
+-[100. Symmetric Tree](easy/101-symmetric-tree.py)
+-[226. Invert Binary Tree](easy/226-invert-binary-tree.py)
 
 
 ### 🟡 Medium Problems  
