@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 16      |
+| 🟢 Easy    | 17      |
 | 🟡 Medium  | 4      |
 | 🔴 Hard    | 0      |
-| **Total**  | **20**  |
+| **Total**  | **21**  |
 
 ## 🗂️ Repository Structure
 
@@ -44,6 +44,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 -[100. Symmetric Tree](easy/101-symmetric-tree.py)
 -[226. Invert Binary Tree](easy/226-invert-binary-tree.py)
 -[112. Path Sum](./easy/112-path-sum.py)
+-[647. Average of Levels in Binary Tree](./easy/637-average-of-levels.py)
 
 
 ### 🟡 Medium Problems  
