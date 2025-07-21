@@ -12,7 +12,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | 🟢 Easy    | 18      |
 | 🟡 Medium  | 4      |
 | 🔴 Hard    | 0      |
-| **Total**  | **21**  |
+| **Total**  | **22**  |
 
 ## 🗂️ Repository Structure
 
@@ -36,7 +36,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [125. Is Palindrome](easy/125-is-palindrome.py)
 - [392. Is Sequence](easy/392-is-sequence.py)
 - [383. Ransom Note](easy/383-ransom-note.py)
-- [205. Isomorphic Strings](easy/205-isomorphic-strings.py)
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
