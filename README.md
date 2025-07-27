@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 18      |
+| 🟢 Easy    | 19      |
 | 🟡 Medium  | 5      |
 | 🔴 Hard    | 0      |
-| **Total**  | **23**  |
+| **Total**  | **24**  |
 
 ## 🗂️ Repository Structure
 
