@@ -53,7 +53,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [189. Rotate Array](/medium/189-rotate-array.py)
 - [126. Two Sum II](medium/126-two-sum-II.py)
 - [199. Binary Tree Right Side View](medium/199-binary-tree-right-side-view.py)
-- [96. Validate Binary Search Tree](medium/96-validate-bst.py)
+- [98. Validate Binary Search Tree](medium/96-validate-bst.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀

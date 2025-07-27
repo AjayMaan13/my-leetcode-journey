@@ -31,44 +31,8 @@ class TreeNode(object):
         self.left = left
         self.right = right
 
+# My solution, O(n)-time and space
 class Solution(object):
-    def isValidBST(self, root):
-        """
-        :type root: TreeNode
-        :rtype: bool
-        """
-        if not root:
-            return
-        
-        isBST = True
-        self.leftVal = None
-
-        # Get the Left Most node Val
-        curr = root
-        while curr.left:
-            curr = curr.left
-        
-        leftVal = curr.val
-        
-        def inorder(leftVal, root):
-
-            if not root:
-                return
-            
-            inorder(leftVal, root.left)
-
-            print(f"leftVal: {leftVal}, root: {root.val}")
-            if root.val >= leftVal:
-                isBST = False
-
-            leftVal = root.val
-            inorder(leftVal, root.right)
-
-        inorder(leftVal, root)
-
-        return isBST
-
-"""class Solution(object):
     def isValidBST(self, root):
         
         #:type root: TreeNode
@@ -98,7 +62,74 @@ class Solution(object):
             left += 1
             right += 1
         
-        return isBST"""
+        return isBST
+
+# Optimized Solution with Log^2(n) time complexity
+class Solution(object):
+    def isValidBST(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """
+
+        # Keep track of the previously visited value during in-order traversal
+        self.prev = None
+
+        def inorder(node):
+            if not node:
+                return True
+
+            # ✅ 1. Go to the left subtree
+            if not inorder(node.left):
+                return False
+
+            # ✅ 2. Check current node value
+            # If the current value is NOT greater than the previous value → not a BST
+            if self.prev is not None and node.val <= self.prev:
+                return False
+
+            # ✅ 3. Update previous value to current node value
+            self.prev = node.val
+
+            # ✅ 4. Go to the right subtree
+            return inorder(node.right)
+
+        return inorder(root)
+
+
+# ---------------------------
+# 🔹 Example to understand in-place check
+# ---------------------------
+
+# Example Tree (Valid BST):
+#        2
+#       / \
+#      1   3
+#
+# In-order traversal steps:
+#   1️⃣ Go to left → visit 1 → prev = 1
+#   2️⃣ Visit root 2 → compare 2 > 1 ✅ → prev = 2
+#   3️⃣ Go to right → visit 3 → compare 3 > 2 ✅ → prev = 3
+# Output = True ✅
+
+
+# Example Tree (Invalid BST):
+#        5
+#       / \
+#      1   4
+#         / \
+#        3   6
+#
+# In-order traversal steps:
+#   1️⃣ Go left → visit 1 → prev = 1
+#   2️⃣ Visit 5 → compare 5 > 1 ✅ → prev = 5
+#   3️⃣ Go right → visit 3 → compare 3 > 5 ❌ (Invalid)
+# Immediately return False → No need to check further.
+
+# ---------------------------
+# The check is "in-place" because:
+#  - We update `self.prev` while traversing (no extra list).
+#  - We stop early as soon as we find a violation.
 
 
     
