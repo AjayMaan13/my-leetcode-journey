@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 18      |
-| 🟡 Medium  | 4      |
+| 🟡 Medium  | 5      |
 | 🔴 Hard    | 0      |
-| **Total**  | **22**  |
+| **Total**  | **23**  |
 
 ## 🗂️ Repository Structure
 
@@ -45,6 +45,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [112. Path Sum](./easy/112-path-sum.py)
 - [647. Average of Levels in Binary Tree](./easy/637-average-of-levels.py)
 - [530. Minimum Absolute Difference in BST](./easy/530-minimum-absolute-difference.py)
+- [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
 
 
 ### 🟡 Medium Problems  
@@ -52,6 +53,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [189. Rotate Array](/medium/189-rotate-array.py)
 - [126. Two Sum II](medium/126-two-sum-II.py)
 - [199. Binary Tree Right Side View](medium/199-binary-tree-right-side-view.py)
+- [96. Validate Binary Search Tree](medium/96-validate-bst.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
