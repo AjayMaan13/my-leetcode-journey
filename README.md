@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 19      |
-| 🟡 Medium  | 5      |
+| 🟡 Medium  | 6      |
 | 🔴 Hard    | 0      |
-| **Total**  | **24**  |
+| **Total**  | **25**  |
 
 ## 🗂️ Repository Structure
 
@@ -54,6 +54,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [126. Two Sum II](medium/126-two-sum-II.py)
 - [199. Binary Tree Right Side View](medium/199-binary-tree-right-side-view.py)
 - [98. Validate Binary Search Tree](medium/96-validate-bst.py)
+- [102. Binary Tree Level Order Traversal](medium/102-bt-level-order.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
