@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 19      |
-| 🟡 Medium  | 7      |
+| 🟡 Medium  | 8      |
 | 🔴 Hard    | 0      |
-| **Total**  | **26**  |
+| **Total**  | **27**  |
 
 ## 🗂️ Repository Structure
 
@@ -56,6 +56,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [98. Validate Binary Search Tree](medium/96-validate-bst.py)
 - [102. Binary Tree Level Order Traversal](medium/102-bt-level-order.py)
 - [129. Sum Root to Leaf Numbers](medium/129-sum-root-to-leaf.py)
+- [103. Binary Tree Zigzag Level Order Traversal](medium/103-bt-zigzag.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
