@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 19      |
-| 🟡 Medium  | 8      |
+| 🟡 Medium  | 9      |
 | 🔴 Hard    | 0      |
-| **Total**  | **27**  |
+| **Total**  | **28**  |
 
 ## 🗂️ Repository Structure
 
@@ -57,6 +57,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [102. Binary Tree Level Order Traversal](medium/102-bt-level-order.py)
 - [129. Sum Root to Leaf Numbers](medium/129-sum-root-to-leaf.py)
 - [103. Binary Tree Zigzag Level Order Traversal](medium/103-bt-zigzag.py)
+- [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
