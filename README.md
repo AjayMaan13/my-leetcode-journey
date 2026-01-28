@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 22      |
+| 🟢 Easy    | 23      |
 | 🟡 Medium  | 9      |
 | 🔴 Hard    | 0      |
-| **Total**  | **31**  |
+| **Total**  | **32**  |
 
 ## 🗂️ Repository Structure
 
@@ -49,6 +49,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1752. Check if Array Is Sorted and Rotated](easy/1752-array-sorted-and-rotated.py)
 - [283. Move Zeroes](easy/283-move-zeroes.py)
 - [268. Missing Number](easy/268-missing-number.py)
+- [485. Max Consecutive Ones](easy/485-max-consecutive-ones.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
