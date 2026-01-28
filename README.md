@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 20      |
+| 🟢 Easy    | 21      |
 | 🟡 Medium  | 9      |
 | 🔴 Hard    | 0      |
-| **Total**  | **28**  |
+| **Total**  | **30**  |
 
 ## 🗂️ Repository Structure
 
@@ -47,7 +47,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [530. Minimum Absolute Difference in BST](./easy/530-minimum-absolute-difference.py)
 - [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
 - [1752. Check if Array Is Sorted and Rotated](easy/1752-array-sorted-and-rotated.py)
-
+- [283. Move Zeroes](easy/283-move-zeroes.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
