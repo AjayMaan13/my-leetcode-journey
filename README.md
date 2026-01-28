@@ -9,7 +9,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 19      |
+| 🟢 Easy    | 20      |
 | 🟡 Medium  | 9      |
 | 🔴 Hard    | 0      |
 | **Total**  | **28**  |
@@ -46,6 +46,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [647. Average of Levels in Binary Tree](./easy/637-average-of-levels.py)
 - [530. Minimum Absolute Difference in BST](./easy/530-minimum-absolute-difference.py)
 - [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
+- [1752. Check if Array Is Sorted and Rotated](easy/1752-array-sorted-and-rotated.py)
 
 
 ### 🟡 Medium Problems  
