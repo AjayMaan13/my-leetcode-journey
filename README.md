@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 21      |
+| 🟢 Easy    | 22      |
 | 🟡 Medium  | 9      |
 | 🔴 Hard    | 0      |
-| **Total**  | **30**  |
+| **Total**  | **31**  |
 
 ## 🗂️ Repository Structure
 
@@ -48,6 +48,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
 - [1752. Check if Array Is Sorted and Rotated](easy/1752-array-sorted-and-rotated.py)
 - [283. Move Zeroes](easy/283-move-zeroes.py)
+- [268. Missing Number](easy/268-missing-number.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
