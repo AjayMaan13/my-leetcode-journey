@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 23      |
+| 🟢 Easy    | 24      |
 | 🟡 Medium  | 9      |
 | 🔴 Hard    | 0      |
-| **Total**  | **32**  |
+| **Total**  | **33**  |
 
 ## 🗂️ Repository Structure
 
@@ -50,6 +50,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [283. Move Zeroes](easy/283-move-zeroes.py)
 - [268. Missing Number](easy/268-missing-number.py)
 - [485. Max Consecutive Ones](easy/485-max-consecutive-ones.py)
+- [138. Sorting Numbers](easy/138-sorting-numbers.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
