@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 25      |
-| 🟡 Medium  | 10      |
+| 🟡 Medium  | 11      |
 | 🔴 Hard    | 0      |
-| **Total**  | **35**  |
+| **Total**  | **36**  |
 
 ## 🗂️ Repository Structure
 
@@ -64,6 +64,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [103. Binary Tree Zigzag Level Order Traversal](medium/103-bt-zigzag.py)
 - [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 - [75. Sort Numbers](medium/075-sort-numbers.py)
+- [53. Maximum Subarray](medium/053-maximum-subarray.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
