@@ -54,6 +54,21 @@ class Solution:
         
         return []
 
+# Hashmap
+def twoSum(nums, target):
+    hashMap = {}  # value -> index
+
+    for i in range(len(nums)):
+        diff = target - nums[i]
+
+        if diff in hashMap:
+            return [hashMap[diff], i]
+
+        hashMap[nums[i]] = i
+
+    return None
+
+
 # Test cases
 if __name__ == "__main__":
     solution = Solution()
