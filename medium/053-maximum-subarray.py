@@ -24,25 +24,6 @@ Constraints:
 - -10^4 <= nums[i] <= 10^4
 """
 
-# ============================================================================
-# MY INITIAL ATTEMPT - Prefix Sum (Incomplete)
-# ============================================================================
-
-def maxSubArray_initial(nums):
-    """
-    Initial approach using prefix sum storage
-    Issue: Just storing prefix sums doesn't solve the problem
-    Need to find max(prefixSum[j] - prefixSum[i]) where i < j
-    """
-    if len(nums) < 1:
-        return None
-    
-    prefixSum = {}
-    for i in range(len(nums)):
-        prefixSum[i] = nums[i] + prefixSum[i-1] if i > 0 else nums[i]
-    
-    print(prefixSum)
-    return 1  # Incomplete
 
 
 # ============================================================================
@@ -202,49 +183,59 @@ Explanation:
 
 
 # ============================================================================
-# COMPLEXITY COMPARISON
+# FOLLOW-UP: Print the Subarray with Maximum Sum
 # ============================================================================
 
 """
-Approach                    Time        Space       Notes
---------                    ----        -----       -----
-Prefix Sum with Min         O(n)        O(1)        Works but less intuitive
-Kadane's (Reset negative)   O(n)        O(1)        Most popular, clearest
-Kadane's (DP form)          O(n)        O(1)        Same as above, DP view
-
-Best for interviews: Kadane's Algorithm (Solution 2 or 3)
+Follow-up Question:
+Can you print the subarray that has the maximum sum?
 """
 
+class SolutionWithSubarray:
+    def maxSubArray(self, nums):
+        """
+        Kadane's Algorithm + Track Subarray Indices
+        
+        Track:
+        - start: starting index of current subarray
+        - ansStart, ansEnd: indices of the maximum subarray
+        """
+        max_sum = nums[0]
+        current_sum = 0
+        
+        start = 0           # Start of current subarray
+        ansStart = 0        # Start of maximum subarray
+        ansEnd = 0          # End of maximum subarray
+        
+        for i in range(len(nums)):
+            if current_sum < 0:
+                current_sum = 0
+                start = i    # Reset start index for new subarray
+            
+            current_sum += nums[i]
+            
+            if current_sum > max_sum:
+                max_sum = current_sum
+                ansStart = start
+                ansEnd = i
+        
+        # Print the subarray
+        print(f"Maximum subarray: {nums[ansStart:ansEnd+1]}")
+        print(f"Indices: [{ansStart}, {ansEnd}]")
+        
+        return max_sum
 
-# ============================================================================
-# WHY KADANE'S ALGORITHM WORKS
-# ============================================================================
 
-"""
-Mathematical Intuition:
+# Example usage:
+nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+solution = SolutionWithSubarray()
+result = solution.maxSubArray(nums)
+print(f"Maximum sum: {result}")
 
-At each position i, we have two choices:
-1. Extend the previous subarray: current_max + nums[i]
-2. Start a new subarray: nums[i]
-
-We choose option 1 if current_max + nums[i] > nums[i]
-Which simplifies to: current_max > 0
-
-That's why we reset when current_sum becomes negative!
-
-Proof of correctness:
-- If including previous elements makes sum negative, they hurt us
-- Better to start fresh from current element
-- This greedy choice is optimal (can be proven by contradiction)
-
-Example:
-[..., -5, 3, ...]
-If we're at 3, should we include -5?
-With -5: -5 + 3 = -2
-Without -5: 3
-Clear winner: start fresh at 3
-"""
-
+# Output:
+# Maximum subarray: [4, -1, 2, 1]
+# Indices: [3, 6]
+# Maximum sum: 6
 
 # ============================================================================
 # INTERVIEW TIPS
