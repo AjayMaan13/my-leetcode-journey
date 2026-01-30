@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 25      |
+| 🟢 Easy    | 26      |
 | 🟡 Medium  | 11      |
 | 🔴 Hard    | 0      |
-| **Total**  | **36**  |
+| **Total**  | **37**  |
 
 ## 🗂️ Repository Structure
 
@@ -52,6 +52,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [485. Max Consecutive Ones](easy/485-max-consecutive-ones.py)
 - [138. Sorting Numbers](easy/138-sorting-numbers.py)
 - [169. Majority Element](easy/169-majority-element.py)
+- [121. Best Time to Buy and Sell Stock](easy/121-best-time-to-buy-and-sell-stock.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
