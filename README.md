@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 26      |
-| 🟡 Medium  | 11      |
+| 🟡 Medium  | 12      |
 | 🔴 Hard    | 0      |
-| **Total**  | **37**  |
+| **Total**  | **38**  |
 
 ## 🗂️ Repository Structure
 
@@ -66,6 +66,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 - [75. Sort Numbers](medium/075-sort-numbers.py)
 - [53. Maximum Subarray](medium/053-maximum-subarray.py)
+- [2149. Rearrange Array Element by Sign](medium/2149-rearrange-array-element-by-sign.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
