@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 26      |
-| 🟡 Medium  | 12      |
+| 🟡 Medium  | 14      |
 | 🔴 Hard    | 0      |
-| **Total**  | **38**  |
+| **Total**  | **40**  |
 
 ## 🗂️ Repository Structure
 
@@ -67,6 +67,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [75. Sort Numbers](medium/075-sort-numbers.py)
 - [53. Maximum Subarray](medium/053-maximum-subarray.py)
 - [2149. Rearrange Array Element by Sign](medium/2149-rearrange-array-element-by-sign.py)
+- [31. Next Permutation](medium/031-next-permutation.py)
+- [128. Longest Consecutive Sequence](medium/128-longest-consecutive-sequence.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
