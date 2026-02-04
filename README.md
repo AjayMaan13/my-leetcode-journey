@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 26      |
-| 🟡 Medium  | 14      |
+| 🟡 Medium  | 15      |
 | 🔴 Hard    | 0      |
-| **Total**  | **40**  |
+| **Total**  | **41**  |
 
 ## 🗂️ Repository Structure
 
@@ -69,6 +69,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [2149. Rearrange Array Element by Sign](medium/2149-rearrange-array-element-by-sign.py)
 - [31. Next Permutation](medium/031-next-permutation.py)
 - [128. Longest Consecutive Sequence](medium/128-longest-consecutive-sequence.py)
+- [73. Set Matrix Zeroes](medium/073-set-matrix-zeroes.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
