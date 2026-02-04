@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 26      |
-| 🟡 Medium  | 15      |
+| 🟡 Medium  | 16      |
 | 🔴 Hard    | 0      |
-| **Total**  | **41**  |
+| **Total**  | **42**  |
 
 ## 🗂️ Repository Structure
 
@@ -70,6 +70,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [31. Next Permutation](medium/031-next-permutation.py)
 - [128. Longest Consecutive Sequence](medium/128-longest-consecutive-sequence.py)
 - [73. Set Matrix Zeroes](medium/073-set-matrix-zeroes.py)
+- [48. Rotate Image !!](medium/048-rotate-image.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
