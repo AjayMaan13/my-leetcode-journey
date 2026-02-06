@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 27      |
-| 🟡 Medium  | 19      |
+| 🟡 Medium  | 20      |
 | 🔴 Hard    | 0      |
-| **Total**  | **46**  |
+| **Total**  | **47**  |
 
 ## 🗂️ Repository Structure
 
@@ -75,6 +75,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [54. Spiral Matrix !!](medium/054-spiral-matrix.py)
 - [560. Subarray Sum Equal k](medium/560-subarray-sum-equal-k.py)
 - [229. Majority Element II !!](medium/229-majority-element-II.py)
+- [15. 3 Sum](medium/015-3sum.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
