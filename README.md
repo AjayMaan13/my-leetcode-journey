@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 27      |
-| 🟡 Medium  | 20      |
+| 🟡 Medium  | 21      |
 | 🔴 Hard    | 0      |
-| **Total**  | **47**  |
+| **Total**  | **48**  |
 
 ## 🗂️ Repository Structure
 
@@ -76,6 +76,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [560. Subarray Sum Equal k](medium/560-subarray-sum-equal-k.py)
 - [229. Majority Element II !!](medium/229-majority-element-II.py)
 - [15. 3 Sum](medium/015-3sum.py)
+- [18. 4 Sum + K Sum(IMP)](medium/018-4sum-ksum.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
