@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 27      |
-| 🟡 Medium  | 21      |
+| 🟡 Medium  | 22      |
 | 🔴 Hard    | 0      |
-| **Total**  | **48**  |
+| **Total**  | **49**  |
 
 ## 🗂️ Repository Structure
 
@@ -77,6 +77,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [229. Majority Element II !!](medium/229-majority-element-II.py)
 - [15. 3 Sum](medium/015-3sum.py)
 - [18. 4 Sum + K Sum(IMP)](medium/018-4sum-ksum.py)
+- [56. Merge Intervals](medium/056-merge-intervals.py)
 
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
