@@ -27,8 +27,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 ## 🔍 Solutions
 
 ### 🟢 Easy Problems
-- [2235. Add Two Integers](easy/2235-add-two-integers.py) - Hash table approach ✅
-- [01. Two Sum](easy/001-two-sum.py) - Hash table approach
+- [2235. Add Two Integers](easy/2235-add-two-integers.py)
+- [01. Two Sum](easy/001-two-sum.py)
 - [027. Remove Element](easy/027-remove-element.py)
 - [141. Linked List Cycle](easy/141-linked-list-cycle.py)
 - [026. Remove Duplicated from Sorted Array](easy/026-remove-duplicates-from-sorted-array.py)
@@ -82,20 +82,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 ### 🔴 Hard Problems
 *Future challenges await!* 🚀
 
-## 🎯 Current Focus
-**This Week:** Getting comfortable with array problems  
-**Next Goal:** Solve 5 easy problems
-
-## 🏆 Goals
-- 🎯 **Short term**: Complete 10 easy problems
-- 🚀 **Medium term**: Tackle my first medium problem
-- 💪 **Long term**: Build strong problem-solving fundamentals
-
-## 💡 What I'm Learning
-- 🧠 **Hash maps** are incredibly useful for array problems
-- ⚡ **Reading the problem carefully** saves debugging time later
-- 🎯 **Starting simple** - get a working solution first, optimize later
-
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
 - 🔗 Linked Lists  
@@ -104,7 +90,5 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - 🔄 Dynamic Programming
 
 ---
-
-⭐ *"Every expert was once a beginner"* - Starting the journey! 
 
 **Started:** May 2025
