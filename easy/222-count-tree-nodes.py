@@ -54,7 +54,6 @@ class Solution(object):
 
         return dfs(root)
 # OR 
-class Solution(object):
     def countNodes(self, root):
         """
         #:type root: Optional[TreeNode]
@@ -84,7 +83,6 @@ class Solution(object):
 # My Solution 2 (BFS), O(n)-time & O(n)-space
 from collections import deque
 
-class Solution(object):
     def countNodes(self, root):
         """
         :type root: TreeNode
@@ -110,7 +108,6 @@ class Solution(object):
 
 # OR
 from collections import deque
-class Solution(object):
     def countNodes(self, root):
         
         #:type root: Optional[TreeNode]
@@ -140,7 +137,6 @@ class Solution(object):
 
 
 # Best Optimized Solution, O(Log^2n) time
-class Solution(object):
     def countNodes(self, root):
         """
         Counts the number of nodes in a COMPLETE binary tree
@@ -226,35 +222,3 @@ class Solution(object):
             return (2 ** right_h) + self.countNodes(root.left)
 
 
-
-
-
-# -----------------------------
-# TESTER
-# -----------------------------
-def build_tree(values):
-    """Helper function to build tree from level-order list"""
-    if not values:
-        return None
-    nodes = [TreeNode(v) if v is not None else None for v in values]
-    kids = nodes[::-1]
-    root = kids.pop()
-    for node in nodes:
-        if node:
-            if kids: node.left = kids.pop()
-            if kids: node.right = kids.pop()
-    return root
-
-
-if __name__ == "__main__":
-    # Test Case 1
-    root1 = build_tree([1, 2, 3, 4, 5, 6])
-    print("Test 1 Expected: 6 | Got:", Solution().countNodes(root1))
-
-    # Test Case 2
-    root2 = build_tree([])
-    print("Test 2 Expected: 0 | Got:", Solution().countNodes(root2))
-
-    # Test Case 3
-    root3 = build_tree([1])
-    print("Test 3 Expected: 1 | Got:", Solution().countNodes(root3))

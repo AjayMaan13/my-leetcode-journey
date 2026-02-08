@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 27      |
+| 🟢 Easy    | 28      |
 | 🟡 Medium  | 22      |
 | 🔴 Hard    | 0      |
-| **Total**  | **49**  |
+| **Total**  | **50**  |
 
 ## 🗂️ Repository Structure
 
@@ -54,6 +54,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [169. Majority Element](easy/169-majority-element.py)
 - [121. Best Time to Buy and Sell Stock](easy/121-best-time-to-buy-and-sell-stock.py)
 - [118. Pascal's Triangle](easy/118-pascals-triangle.py)
+- [88. Merge Sorted Arrays In-place](easy/088-merge-sorted-arrays-inplace.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
