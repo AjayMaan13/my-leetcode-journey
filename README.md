@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 28      |
 | 🟡 Medium  | 22      |
-| 🔴 Hard    | 0      |
-| **Total**  | **50**  |
+| 🔴 Hard    | 1      |
+| **Total**  | **51**  |
 
 ## 🗂️ Repository Structure
 
@@ -81,7 +81,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [56. Merge Intervals](medium/056-merge-intervals.py)
 
 ### 🔴 Hard Problems
-*Future challenges await!* 🚀
+- [493. Reverse Pairs](hard/493-reverse-pirs.py)
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
