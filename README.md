@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 23      |
+| 🟡 Medium  | 24      |
 | 🔴 Hard    | 1      |
-| **Total**  | **54**  |
+| **Total**  | **55**  |
 
 ## 🗂️ Repository Structure
 
@@ -82,6 +82,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [18. 4 Sum + K Sum(IMP)](medium/018-4sum-ksum.py)
 - [56. Merge Intervals](medium/056-merge-intervals.py)
 - [152. Maximum Product Subarray](medium/152-maximum-product-subarray.py)
+- [034. Find First and Last Position of Element in Sorted Array !](medium/034-find-first-and-last-position.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
