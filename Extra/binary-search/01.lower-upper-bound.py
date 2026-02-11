@@ -59,17 +59,6 @@ class UpperBoundFinder:
     - arr = [3,5,8,9,15,19], x = 9 → Result: 4 (arr[4] = 15 > 9)
     """
     
-    def upper_bound_linear(self, arr, x):
-        """
-        Linear search to find upper bound (Brute Force)
-        Time Complexity: O(N)
-        Space Complexity: O(1)
-        """
-        for i in range(len(arr)):
-            if arr[i] > x:
-                return i  # First element greater than x
-        return len(arr)   # Return size if no such element found
-    
     def upper_bound(self, arr, x):
         """
         Binary search to find upper bound (Optimal)
