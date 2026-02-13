@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 27      |
+| 🟡 Medium  | 28      |
 | 🔴 Hard    | 1      |
-| **Total**  | **58**  |
+| **Total**  | **59**  |
 
 ## 🗂️ Repository Structure
 
@@ -86,6 +86,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [033. Search in Rotated Sorted Array I !](medium/033-search-in-rotated-sorted-array.py)
 - [081. Search in Rotated Sorted Array II](medium/081-search-in-rotated-sorted-array-2.py)
 - [153. Find Minimum in Rotated Sorted Array](medium)
+- [540. Single Element in a Sorted Array !!](medium)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
