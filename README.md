@@ -83,7 +83,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [56. Merge Intervals](medium/056-merge-intervals.py)
 - [152. Maximum Product Subarray](medium/152-maximum-product-subarray.py)
 - [034. Find First and Last Position of Element in Sorted Array !](medium/034-find-first-and-last-position.py)
-- [033. Search in Rotated Sorted Array !](medium/033-search-in-rotated-sorted-array.py)
+- [033. Search in Rotated Sorted Array I !](medium/033-search-in-rotated-sorted-array.py)
+- [081. Search in Rotated Sorted Array II](medium/081-search-in-rotated-sorted-array-2.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
