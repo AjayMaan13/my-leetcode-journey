@@ -88,7 +88,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [153. Find Minimum in Rotated Sorted Array](medium/153-find-minimum-in-rotated-sorted-array.py)
 - [540. Single Element in a Sorted Array !!](medium/540-single-element-in-sorted-array.py)
 - [162. Find Peak Element](medium/162-find-peak-element)
-- [875. Koko Eating Bananas](medium)
+- [875. Koko Eating Bananas](medium/875-koko-eating-bananas.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
