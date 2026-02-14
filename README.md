@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 29      |
+| 🟡 Medium  | 30      |
 | 🔴 Hard    | 1      |
-| **Total**  | **60**  |
+| **Total**  | **61**  |
 
 ## 🗂️ Repository Structure
 
@@ -85,9 +85,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [034. Find First and Last Position of Element in Sorted Array !](medium/034-find-first-and-last-position.py)
 - [033. Search in Rotated Sorted Array I !](medium/033-search-in-rotated-sorted-array.py)
 - [081. Search in Rotated Sorted Array II](medium/081-search-in-rotated-sorted-array-2.py)
-- [153. Find Minimum in Rotated Sorted Array](medium)
-- [540. Single Element in a Sorted Array !!](medium)
-- [162. Find Peak Element](medium)
+- [153. Find Minimum in Rotated Sorted Array](medium/153-find-minimum-in-rotated-sorted-array.py)
+- [540. Single Element in a Sorted Array !!](medium/540-single-element-in-sorted-array.py)
+- [162. Find Peak Element](medium/162-find-peak-element)
+- [875. Koko Eating Bananas](medium)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
