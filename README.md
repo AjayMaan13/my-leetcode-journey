@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 31      |
+| 🟡 Medium  | 32      |
 | 🔴 Hard    | 1      |
-| **Total**  | **62**  |
+| **Total**  | **63**  |
 
 ## 🗂️ Repository Structure
 
@@ -90,6 +90,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [162. Find Peak Element](medium/162-find-peak-element)
 - [875. Koko Eating Bananas](medium/875-koko-eating-bananas.py)
 - [1482. Minimum Number of Days to Make m Bouquets](medium/1482-minimum-number-of-days-to-make-m-bouquets.py)
+- [1283. Find the Smallest Divisor Given a Threshold](medium/1283-find-the-smallest-divisor-given-threshold.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
