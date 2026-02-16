@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 30      |
 | 🟡 Medium  | 34      |
-| 🔴 Hard    | 1      |
-| **Total**  | **65**  |
+| 🔴 Hard    | 2      |
+| **Total**  | **66**  |
 
 ## 🗂️ Repository Structure
 
@@ -96,6 +96,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
+- [410. Split Array Largest Sum](hard/410-split-array-largest-sum.py)
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
