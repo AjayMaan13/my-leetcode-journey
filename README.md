@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 32      |
+| 🟡 Medium  | 33      |
 | 🔴 Hard    | 1      |
-| **Total**  | **63**  |
+| **Total**  | **64**  |
 
 ## 🗂️ Repository Structure
 
@@ -91,6 +91,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [875. Koko Eating Bananas](medium/875-koko-eating-bananas.py)
 - [1482. Minimum Number of Days to Make m Bouquets](medium/1482-minimum-number-of-days-to-make-m-bouquets.py)
 - [1283. Find the Smallest Divisor Given a Threshold](medium/1283-find-the-smallest-divisor-given-threshold.py)
+- [1011. Capacity To Ship Packages Within D Days](medium/1011-capacity-to-ship-packages-within-D-days.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
