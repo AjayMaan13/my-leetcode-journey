@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 35      |
+| 🟡 Medium  | 36      |
 | 🔴 Hard    | 3      |
-| **Total**  | **68**  |
+| **Total**  | **69**  |
 
 ## 🗂️ Repository Structure
 
@@ -93,7 +93,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1283. Find the Smallest Divisor Given a Threshold](medium/1283-find-the-smallest-divisor-given-threshold.py)
 - [1011. Capacity To Ship Packages Within D Days](medium/1011-capacity-to-ship-packages-within-D-days.py)
 - [1539. Kth Missing Positive Number](medium/1539-Kth-missing-positive-number.py)
-- [74. Search a 2D matrix](medium)
+- [74. Search a 2D matrix](medium/074-search-2d-matrix.py)
+- [240. Search a 2D Matrix II](medium/240-Search-a-2D-Matrix-II.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
