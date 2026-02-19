@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 33      |
+| 🟢 Easy    | 34      |
 | 🟡 Medium  | 38      |
 | 🔴 Hard    | 3      |
-| **Total**  | **74**  |
+| **Total**  | **75**  |
 
 ## 🗂️ Repository Structure
 
@@ -60,7 +60,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [1021. Remove Outermost Parentheses](easy/1021-remove-outermost-parentheses.py)
 - [1903. Largest Odd Number in String](easy/1903-largest-odd-number-in-string.py)
-- [14. Longest Common Prefix](easy)
+- [14. Longest Common Prefix](easy/014-longest-common-prefix.py)
+- [205. Isomorphic Strings](easy/205-isomorphic-strings.py)
 
 
 ### 🟡 Medium Problems  
