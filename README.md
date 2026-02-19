@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 30      |
-| 🟡 Medium  | 36      |
+| 🟡 Medium  | 37      |
 | 🔴 Hard    | 3      |
-| **Total**  | **69**  |
+| **Total**  | **70**  |
 
 ## 🗂️ Repository Structure
 
@@ -87,7 +87,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [081. Search in Rotated Sorted Array II](medium/081-search-in-rotated-sorted-array-2.py)
 - [153. Find Minimum in Rotated Sorted Array](medium/153-find-minimum-in-rotated-sorted-array.py)
 - [540. Single Element in a Sorted Array !!](medium/540-single-element-in-sorted-array.py)
-- [162. Find Peak Element](medium/162-find-peak-element)
+- [162. Find Peak Element I](medium/162-find-peak-element)
 - [875. Koko Eating Bananas](medium/875-koko-eating-bananas.py)
 - [1482. Minimum Number of Days to Make m Bouquets](medium/1482-minimum-number-of-days-to-make-m-bouquets.py)
 - [1283. Find the Smallest Divisor Given a Threshold](medium/1283-find-the-smallest-divisor-given-threshold.py)
@@ -95,6 +95,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1539. Kth Missing Positive Number](medium/1539-Kth-missing-positive-number.py)
 - [74. Search a 2D matrix](medium/074-search-2d-matrix.py)
 - [240. Search a 2D Matrix II](medium/240-Search-a-2D-Matrix-II.py)
+- [1901. Finding a Peak Element II](medium/1901-finding-peak-element-II.py)
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
