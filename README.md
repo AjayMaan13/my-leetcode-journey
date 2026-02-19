@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 30      |
+| 🟢 Easy    | 31      |
 | 🟡 Medium  | 37      |
 | 🔴 Hard    | 3      |
-| **Total**  | **70**  |
+| **Total**  | **71**  |
 
 ## 🗂️ Repository Structure
 
@@ -56,7 +56,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [118. Pascal's Triangle](easy/118-pascals-triangle.py)
 - [88. Merge Sorted Arrays In-place](easy/088-merge-sorted-arrays-inplace.py)
 - [704. Binary Search](easy/704-binary-search.py)
-- [35. Search Insert Position](easy)
+- [35. Search Insert Position](easy/035-search-insert-position.py)
+
+-[1021. Remove Outermost Parentheses](easy/1021-remove-outermost-parentheses.py)
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
