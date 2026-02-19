@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 34      |
+| 🟢 Easy    | 35      |
 | 🟡 Medium  | 38      |
 | 🔴 Hard    | 3      |
-| **Total**  | **75**  |
+| **Total**  | **76**  |
 
 ## 🗂️ Repository Structure
 
@@ -62,6 +62,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1903. Largest Odd Number in String](easy/1903-largest-odd-number-in-string.py)
 - [14. Longest Common Prefix](easy/014-longest-common-prefix.py)
 - [205. Isomorphic Strings](easy/205-isomorphic-strings.py)
+- [796. Rotate String](easy/796-rotate-string.py)
 
 
 ### 🟡 Medium Problems  
