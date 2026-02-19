@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 31      |
+| 🟢 Easy    | 32      |
 | 🟡 Medium  | 38      |
 | 🔴 Hard    | 3      |
-| **Total**  | **72**  |
+| **Total**  | **73**  |
 
 ## 🗂️ Repository Structure
 
@@ -58,7 +58,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [704. Binary Search](easy/704-binary-search.py)
 - [35. Search Insert Position](easy/035-search-insert-position.py)
 
--[1021. Remove Outermost Parentheses](easy/1021-remove-outermost-parentheses.py)
+- [1021. Remove Outermost Parentheses](easy/1021-remove-outermost-parentheses.py)
+- [1903. Largest Odd Number in String](easy/1903-largest-odd-number-in-string.py)
+
 
 ### 🟡 Medium Problems  
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
