@@ -65,7 +65,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [796. Rotate String](easy/796-rotate-string.py)
 - [242. Valid Anagram](easy/242-Valid-Anagram.py)
 - [1614. Maximum Nesting Depth of Parentheses](easy/1614-max-depth-of-parentheses.py)
-- [13. Roman to Integer](easy)
+- [13. Roman to Integer](easy/013-roman-to-integer.py)
 
 
 ### 🟡 Medium Problems  
@@ -109,7 +109,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [151. Reverse Words in a String](medium/151-reverse-words-in-string.py)
 - [451. Sort Characters by Frequency](medium/451-sort-characters-by-frequency.py)
-- [8. String to Integers (Atoi)](medium)
+- [8. String to Integers (Atoi)](medium/008-string-to-integers-Atoi.py)
 
 
 ### 🔴 Hard Problems
