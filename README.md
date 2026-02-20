@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 36      |
-| 🟡 Medium  | 38      |
+| 🟡 Medium  | 39      |
 | 🔴 Hard    | 3      |
-| **Total**  | **77**  |
+| **Total**  | **78**  |
 
 ## 🗂️ Repository Structure
 
@@ -106,6 +106,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1901. Finding a Peak Element II](medium/1901-finding-peak-element-II.py)
 
 - [151. Reverse Words in a String](medium/151-reverse-words-in-string.py)
+- [451. Sort Characters by Frequency](medium/451-sort-characters-by-frequency.py)
+
 
 ### 🔴 Hard Problems
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
