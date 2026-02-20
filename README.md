@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 37      |
+| 🟢 Easy    | 38      |
 | 🟡 Medium  | 39      |
 | 🔴 Hard    | 3      |
-| **Total**  | **79**  |
+| **Total**  | **80**  |
 
 ## 🗂️ Repository Structure
 
@@ -65,6 +65,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [796. Rotate String](easy/796-rotate-string.py)
 - [242. Valid Anagram](easy/242-Valid-Anagram.py)
 - [1614. Maximum Nesting Depth of Parentheses](easy/1614-max-depth-of-parentheses.py)
+- [13. Roman to Integer](easy)
 
 
 ### 🟡 Medium Problems  
