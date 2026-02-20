@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 38      |
-| 🟡 Medium  | 39      |
+| 🟡 Medium  | 40      |
 | 🔴 Hard    | 3      |
-| **Total**  | **80**  |
+| **Total**  | **81**  |
 
 ## 🗂️ Repository Structure
 
@@ -109,6 +109,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [151. Reverse Words in a String](medium/151-reverse-words-in-string.py)
 - [451. Sort Characters by Frequency](medium/451-sort-characters-by-frequency.py)
+- [8. String to Integers (Atoi)](medium)
 
 
 ### 🔴 Hard Problems
