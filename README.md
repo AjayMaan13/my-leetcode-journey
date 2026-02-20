@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 35      |
+| 🟢 Easy    | 36      |
 | 🟡 Medium  | 38      |
 | 🔴 Hard    | 3      |
-| **Total**  | **76**  |
+| **Total**  | **77**  |
 
 ## 🗂️ Repository Structure
 
@@ -63,6 +63,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [14. Longest Common Prefix](easy/014-longest-common-prefix.py)
 - [205. Isomorphic Strings](easy/205-isomorphic-strings.py)
 - [796. Rotate String](easy/796-rotate-string.py)
+- [242. Valid Anagram](easy/242-Valid-Anagram.py)
 
 
 ### 🟡 Medium Problems  
