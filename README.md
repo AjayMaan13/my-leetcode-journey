@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 38      |
-| 🟡 Medium  | 40      |
+| 🟡 Medium  | 41      |
 | 🔴 Hard    | 3      |
-| **Total**  | **81**  |
+| **Total**  | **82**  |
 
 ## 🗂️ Repository Structure
 
@@ -110,6 +110,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [151. Reverse Words in a String](medium/151-reverse-words-in-string.py)
 - [451. Sort Characters by Frequency](medium/451-sort-characters-by-frequency.py)
 - [8. String to Integers (Atoi)](medium/008-string-to-integers-Atoi.py)
+- [5. Longest Palindrome Substring !!](medium/005-longest-palindrome-substring.py)
 
 
 ### 🔴 Hard Problems
