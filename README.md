@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 38      |
+| 🟢 Easy    | 39      |
 | 🟡 Medium  | 41      |
 | 🔴 Hard    | 3      |
-| **Total**  | **82**  |
+| **Total**  | **83**  |
 
 ## 🗂️ Repository Structure
 
@@ -111,6 +111,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [451. Sort Characters by Frequency](medium/451-sort-characters-by-frequency.py)
 - [8. String to Integers (Atoi)](medium/008-string-to-integers-Atoi.py)
 - [5. Longest Palindrome Substring !!](medium/005-longest-palindrome-substring.py)
+- [1781. Sum of Beauty of All Substrings](medium/1781-sum-of-beauty-of-all-substrings.py)
 
 
 ### 🔴 Hard Problems
