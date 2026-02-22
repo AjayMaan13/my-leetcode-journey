@@ -68,6 +68,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [13. Roman to Integer](easy/013-roman-to-integer.py)
 
 - [876. Middle of the Linked List](easy/876-Middle-of-the-Linked-List.py)
+- [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 
 
 ### 🟡 Medium Problems  

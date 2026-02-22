@@ -1,119 +1,106 @@
 """
-Reverse Linked List Solutions
+206. REVERSE LINKED LIST
 
-1. LeetCode-style solution with function reverseList(head) that returns new head.
-2. Class-based LinkedList with method reverseLL(self) that reverses the linked list in place.
+Problem Statement:
+Given the head of a singly linked list, reverse the list, and return the 
+reversed list.
+
+Example 1:
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+
+Example 2:
+Input: head = [1,2]
+Output: [2,1]
+
+Example 3:
+Input: head = []
+Output: []
 """
 
-# ✅ Node definition
+
+# Definition for singly-linked list
 class ListNode(object):
-    def __init__(self, val=0, nextNode=None):
+    def __init__(self, val=0, next=None):
         self.val = val
-        self.nextNode = nextNode
+        self.next = next
 
 
-# ✅ Linked List class with your custom reverseLL
-class LinkedList(object):
-    def __init__(self):
-        self.head = None
+# ==============================================================================
+# APPROACH 1: YOUR SOLUTION (WORKS BUT COMPLEX)
+# ==============================================================================
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
-    def insert(self, val):
-        if not self.head:
-            self.head = ListNode(val)
-        else:
-            current = self.head
-            while current.nextNode:
-                current = current.nextNode
-            current.nextNode = ListNode(val)
-
-    def printList(self):
-        current = self.head
-        result = []
-        while current:
-            result.append(current.val)
-            current = current.nextNode
-        print(result)
-
-    # ✅ My old custom reverse function
-    def reverseLL(self):
-        if self.head is None or self.head.nextNode is None:
-            return self
-
-        endPointer = self.head
-        while endPointer.nextNode:
-            endPointer = endPointer.nextNode        
-
-        startPointer = self.head
-
-        self.head = self.head.nextNode 
-        endPointer.nextNode = startPointer
-        endPointer.nextNode.nextNode = None
-        startPointer = self.head
-
-        while endPointer != startPointer:
-            self.head = self.head.nextNode
-            startPointer.nextNode = endPointer.nextNode
-            endPointer.nextNode = startPointer
-            startPointer = self.head
-
-        return self
-
-
-# ✅ LeetCode-style Solution (standard)
-class Solution(object):
+class Solution_YourApproach:
     def reverseList(self, head):
         """
-        :type head: Optional[ListNode]
-        :rtype: Optional[ListNode]
+        Your approach with if-else for first node handling.
+        
+        This works but has unnecessary complexity with the if-else.
+        The logic can be simplified.
         """
+        if not head:
+            return head
+        
+        reverse = None
+        
+        while head:
+            newHead = head.next
+            
+            if reverse:
+                # Not first node
+                temp = reverse
+                reverse = head
+                reverse.next = temp
+                head = newHead
+            else:
+                # First node - special handling
+                reverse = head
+                reverse.next = None
+            
+            head = newHead
+        
+        return reverse
+
+
+# ==============================================================================
+# APPROACH 2: ITERATIVE (OPTIMAL & CLEANEST)
+# ==============================================================================
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
+class Solution_Verbose:
+    def reverseList(self, head):
+        """
+        Same as Approach 2 but with detailed comments for understanding.
+        
+        The three-pointer technique:
+        - prev: points to already-reversed portion
+        - curr: current node being processed
+        - next: temporary to not lose rest of list
+        """
+        # Initialize: prev is None (new tail will point to None)
         prev = None
-        current = head
-
-        while current:
-            next_temp = current.nextNode  # Note: using nextNode to match LinkedList class
-            current.nextNode = prev
-            prev = current
-            current = next_temp
-
+        
+        # Start from head
+        curr = head
+        
+        # Process each node
+        while curr is not None:
+            # CRITICAL: Save next node before we break the link!
+            # If we don't do this, we lose the rest of the list
+            next_temp = curr.next
+            
+            # Reverse the current node's pointer
+            # Make it point backwards instead of forwards
+            curr.next = prev
+            
+            # Move our pointers one step forward
+            # prev becomes current node (for next iteration)
+            prev = curr
+            # curr becomes next node (continue traversal)
+            curr = next_temp
+        
+        # When loop ends, curr is None and prev is the new head
         return prev
-
-
-# ✅ Helper to convert ListNode back to Python list
-def linkedListToList(head):
-    result = []
-    current = head
-    while current:
-        result.append(current.val)
-        current = current.nextNode
-    return result
-
-
-# ✅ Test both solutions
-if __name__ == "__main__":
-    print("==== Testing Custom Class reverseLL ====")
-    ll = LinkedList()
-    for val in [1, 2, 3, 4, 5]:
-        ll.insert(val)
-
-    print("Original List:")
-    ll.printList()
-
-    ll.reverseLL()
-    print("Reversed List (custom reverseLL):")
-    ll.printList()
-
-
-    print("\n==== Testing LeetCode reverseList ====")
-    ll2 = LinkedList()
-    for val in [1, 2, 3, 4, 5]:
-        ll2.insert(val)
-
-    print("Original List:")
-    ll2.printList()
-
-    solver = Solution()
-    reversed_head = solver.reverseList(ll2.head)
-
-    result = linkedListToList(reversed_head)
-    print("Reversed List (LeetCode reverseList):")
-    print(result)
