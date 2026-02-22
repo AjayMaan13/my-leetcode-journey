@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 39      |
+| 🟢 Easy    | 40      |
 | 🟡 Medium  | 42      |
 | 🔴 Hard    | 3      |
-| **Total**  | **84**  |
+| **Total**  | **85**  |
 
 ## 🗂️ Repository Structure
 
@@ -66,6 +66,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [242. Valid Anagram](easy/242-Valid-Anagram.py)
 - [1614. Maximum Nesting Depth of Parentheses](easy/1614-max-depth-of-parentheses.py)
 - [13. Roman to Integer](easy/013-roman-to-integer.py)
+
+- [876. Middle of the Linked List](easy/876-Middle-of-the-Linked-List.py)
 
 
 ### 🟡 Medium Problems  
