@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 39      |
-| 🟡 Medium  | 41      |
+| 🟡 Medium  | 42      |
 | 🔴 Hard    | 3      |
-| **Total**  | **83**  |
+| **Total**  | **84**  |
 
 ## 🗂️ Repository Structure
 
@@ -112,6 +112,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [8. String to Integers (Atoi)](medium/008-string-to-integers-Atoi.py)
 - [5. Longest Palindrome Substring !!](medium/005-longest-palindrome-substring.py)
 - [1781. Sum of Beauty of All Substrings](medium/1781-sum-of-beauty-of-all-substrings.py)
+
+- [237. Delete Node in Linked List](medium/237-delete-node-in-linked-list.py)
 
 
 ### 🔴 Hard Problems
