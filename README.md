@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 40      |
-| 🟡 Medium  | 42      |
+| 🟡 Medium  | 43      |
 | 🔴 Hard    | 3      |
-| **Total**  | **85**  |
+| **Total**  | **86**  |
 
 ## 🗂️ Repository Structure
 
@@ -117,6 +117,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1781. Sum of Beauty of All Substrings](medium/1781-sum-of-beauty-of-all-substrings.py)
 
 - [237. Delete Node in Linked List](medium/237-delete-node-in-linked-list.py)
+- [142. Linked List Cycle II](medium/142-linked-list-cycle-II.py)
 
 
 ### 🔴 Hard Problems

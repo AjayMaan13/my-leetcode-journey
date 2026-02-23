@@ -104,3 +104,83 @@ class Solution_Verbose:
         
         # When loop ends, curr is None and prev is the new head
         return prev
+    
+    
+# ==============================================================================
+# APPROACH 3: RECURSIVE (ELEGANT BUT USES STACK SPACE)
+# ==============================================================================
+# Time Complexity: O(n)
+# Space Complexity: O(n) - recursion stack
+
+class Solution_Recursive:
+    def reverseList(self, head):
+        """
+        Recursive reversal - elegant but uses O(n) space.
+        
+        Strategy:
+        1. Recursively reverse rest of list
+        2. Fix current node's links
+        3. Return new head
+        
+        Visual for [1->2->3->None]:
+        
+        Call stack:
+        reverseList(1)
+          reverseList(2)
+            reverseList(3)
+              reverseList(None) → return None
+            3.next.next = 3  (make 2's next point to 3)
+            3.next = None
+            return 3
+          2.next.next = 2    (make 1's next point to 2)
+          2.next = None
+          return 3
+        
+        Result: None <- 1 <- 2 <- 3
+        """
+        # Base case: empty list or last node
+        if not head or not head.next:
+            return head
+        
+        # Recursively reverse rest of list
+        # new_head will be the last node (new head of reversed list)
+        new_head = self.reverseList(head.next)
+        
+        # Reverse current node's link
+        # head.next is the node after current (in original list)
+        # Make that node point back to current
+        head.next.next = head
+        
+        # Current node becomes tail, should point to None
+        head.next = None
+        
+        # Return the new head (stays same through all recursions)
+        return new_head
+
+
+# ==============================================================================
+# APPROACH 4: RECURSIVE (ALTERNATIVE - PASSING PREV)
+# ==============================================================================
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+class Solution_RecursivePrev:
+    def reverseList(self, head):
+        """
+        Recursive with prev parameter - mimics iterative approach.
+        """
+        def reverse_helper(curr, prev):
+            # Base case: reached end of list
+            if not curr:
+                return prev
+            
+            # Save next
+            next_node = curr.next
+            
+            # Reverse link
+            curr.next = prev
+            
+            # Recurse with next node
+            return reverse_helper(next_node, curr)
+        
+        return reverse_helper(head, None)
