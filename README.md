@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 41      |
-| 🟡 Medium  | 44      |
+| 🟡 Medium  | 45      |
 | 🔴 Hard    | 3      |
-| **Total**  | **88**  |
+| **Total**  | **89**  |
 
 ## 🗂️ Repository Structure
 
@@ -120,6 +120,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [237. Delete Node in Linked List](medium/237-delete-node-in-linked-list.py)
 - [142. Linked List Cycle II](medium/142-linked-list-cycle-II.py)
 - [328. Odd Even Linked List](medium/328-odd-even-linked-list.py)
+- [19. Remove Nth Node From End of List](medium/019-remove-nth-node-from-list.py)
 
 
 ### 🔴 Hard Problems
