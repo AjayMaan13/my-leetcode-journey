@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 41      |
-| 🟡 Medium  | 46      |
+| 🟡 Medium  | 47      |
 | 🔴 Hard    | 3      |
-| **Total**  | **90**  |
+| **Total**  | **91**  |
 
 ## 🗂️ Repository Structure
 
@@ -122,6 +122,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [328. Odd Even Linked List](medium/328-odd-even-linked-list.py)
 - [19. Remove Nth Node From End of List](medium/019-remove-nth-node-from-list.py)
 - [2095. Delete the Middle Node of a Linked List](medium/2095-delete-middle-node-of-linked-list.py)
+ -[148. Sort List !](medium/148-sort-list-linked-list.py)
 
 
 ### 🔴 Hard Problems
