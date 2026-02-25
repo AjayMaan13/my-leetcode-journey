@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 47      |
+| 🟡 Medium  | 48      |
 | 🔴 Hard    | 4      |
-| **Total**  | **93**  |
+| **Total**  | **94**  |
 
 ## 🗂️ Repository Structure
 
@@ -124,6 +124,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [19. Remove Nth Node From End of List](medium/019-remove-nth-node-from-list.py)
 - [2095. Delete the Middle Node of a Linked List](medium/2095-delete-middle-node-of-linked-list.py)
  -[148. Sort List !](medium/148-sort-list-linked-list.py)
+ - [61. Rotate List (Linked List)](medium/061-rotate-list-LL.py)
 
 
 ### 🔴 Hard Problems
