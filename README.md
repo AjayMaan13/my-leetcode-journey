@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 48      |
+| 🟡 Medium  | 49      |
 | 🔴 Hard    | 4      |
-| **Total**  | **94**  |
+| **Total**  | **95**  |
 
 ## 🗂️ Repository Structure
 
@@ -73,7 +73,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [160. Intersection of Two Linked Lists](easy/160-intersection-of-two-linked-lists.py)
 
 
-### 🟡 Medium Problems  
+### 🟡 Medium Problems
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
 - [189. Rotate Array](/medium/189-rotate-array.py)
 - [126. Two Sum II](medium/126-two-sum-II.py)
@@ -125,6 +125,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [2095. Delete the Middle Node of a Linked List](medium/2095-delete-middle-node-of-linked-list.py)
  -[148. Sort List !](medium/148-sort-list-linked-list.py)
  - [61. Rotate List (Linked List)](medium/061-rotate-list-LL.py)
+ - [138. Copy List with Random Pointer](medium/138-copy-list-with-random-pointer.py)
 
 
 ### 🔴 Hard Problems
