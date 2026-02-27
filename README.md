@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 50      |
+| 🟡 Medium  | 51      |
 | 🔴 Hard    | 4      |
-| **Total**  | **96**  |
+| **Total**  | **97**  |
 
 ## 🗂️ Repository Structure
 
@@ -127,7 +127,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
  - [61. Rotate List (Linked List)](medium/061-rotate-list-LL.py)
  - [138. Copy List with Random Pointer](medium/138-copy-list-with-random-pointer.py)
 
- - [50. Pow(x,n)](medium)
+ - [50. Pow(x,n) (IMP)](medium/050-pow(x,n).py)
+ - [1922. Count Good Numbers (IMP, simlar to 50. Pow(x,n))](medium/1922-count-good-numbers.py)
 
 
 ### 🔴 Hard Problems
