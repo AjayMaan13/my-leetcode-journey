@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 49      |
+| 🟡 Medium  | 50      |
 | 🔴 Hard    | 4      |
-| **Total**  | **95**  |
+| **Total**  | **96**  |
 
 ## 🗂️ Repository Structure
 
@@ -126,6 +126,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
  -[148. Sort List !](medium/148-sort-list-linked-list.py)
  - [61. Rotate List (Linked List)](medium/061-rotate-list-LL.py)
  - [138. Copy List with Random Pointer](medium/138-copy-list-with-random-pointer.py)
+
+ - [50. Pow(x,n)](medium)
 
 
 ### 🔴 Hard Problems
