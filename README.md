@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 51      |
+| 🟡 Medium  | 52      |
 | 🔴 Hard    | 4      |
-| **Total**  | **97**  |
+| **Total**  | **98**  |
 
 ## 🗂️ Repository Structure
 
@@ -129,6 +129,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
  - [50. Pow(x,n) (IMP)](medium/050-pow(x,n).py)
  - [1922. Count Good Numbers (IMP, simlar to 50. Pow(x,n))](medium/1922-count-good-numbers.py)
+ - [22. Generate Parenthesis !(Backtracking)](medium/022-generate-parenthesis.py)
 
 
 ### 🔴 Hard Problems
