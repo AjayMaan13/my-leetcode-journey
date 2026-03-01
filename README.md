@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 53      |
+| 🟡 Medium  | 54      |
 | 🔴 Hard    | 4      |
-| **Total**  | **99**  |
+| **Total**  | **100**  |
 
 ## 🗂️ Repository Structure
 
@@ -131,6 +131,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
  - [1922. Count Good Numbers (IMP, simlar to 50. Pow(x,n))](medium/1922-count-good-numbers.py)
  - [22. Generate Parenthesis !(Backtracking)](medium/022-generate-parenthesis.py)
  - [39. Combination Sum](medium/039-combination-sum.py)
+ - [40. Combination Sum II](medium/040-combination-sum-2.py)
 
 
 ### 🔴 Hard Problems
