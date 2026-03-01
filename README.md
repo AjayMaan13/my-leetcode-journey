@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 54      |
+| 🟡 Medium  | 55      |
 | 🔴 Hard    | 4      |
-| **Total**  | **100**  |
+| **Total**  | **101**  |
 
 ## 🗂️ Repository Structure
 
@@ -132,6 +132,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
  - [22. Generate Parenthesis !(Backtracking)](medium/022-generate-parenthesis.py)
  - [39. Combination Sum](medium/039-combination-sum.py)
  - [40. Combination Sum II](medium/040-combination-sum-2.py)
+ - [78. Subsets](medium/078-subsets.py)
 
 
 ### 🔴 Hard Problems
