@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 57      |
+| 🟡 Medium  | 58      |
 | 🔴 Hard    | 4      |
-| **Total**  | **103**  |
+| **Total**  | **104**  |
 
 ## 🗂️ Repository Structure
 
@@ -135,6 +135,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
  - [78. Subsets](medium/078-subsets.py)
  - [90. Subsets II](medium/090-subsets-2.py)
  - [216. Combination Sum III](medium/216-combination-sum-3.py)
+ - [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
 
 
 ### 🔴 Hard Problems
