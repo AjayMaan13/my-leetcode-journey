@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 42      |
-| 🟡 Medium  | 58      |
+| 🟡 Medium  | 59      |
 | 🔴 Hard    | 4      |
-| **Total**  | **104**  |
+| **Total**  | **105**  |
 
 ## 🗂️ Repository Structure
 
@@ -123,19 +123,20 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [328. Odd Even Linked List](medium/328-odd-even-linked-list.py)
 - [19. Remove Nth Node From End of List](medium/019-remove-nth-node-from-list.py)
 - [2095. Delete the Middle Node of a Linked List](medium/2095-delete-middle-node-of-linked-list.py)
- -[148. Sort List !](medium/148-sort-list-linked-list.py)
- - [61. Rotate List (Linked List)](medium/061-rotate-list-LL.py)
- - [138. Copy List with Random Pointer](medium/138-copy-list-with-random-pointer.py)
+-[148. Sort List !](medium/148-sort-list-linked-list.py)
+- [61. Rotate List (Linked List)](medium/061-rotate-list-LL.py)
+- [138. Copy List with Random Pointer](medium/138-copy-list-with-random-pointer.py)
 
- - [50. Pow(x,n) (IMP)](medium/050-pow(x,n).py)
- - [1922. Count Good Numbers (IMP, simlar to 50. Pow(x,n))](medium/1922-count-good-numbers.py)
- - [22. Generate Parenthesis !(Backtracking)](medium/022-generate-parenthesis.py)
- - [39. Combination Sum](medium/039-combination-sum.py)
- - [40. Combination Sum II](medium/040-combination-sum-2.py)
- - [78. Subsets](medium/078-subsets.py)
- - [90. Subsets II](medium/090-subsets-2.py)
- - [216. Combination Sum III](medium/216-combination-sum-3.py)
- - [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
+- [50. Pow(x,n) (IMP)](medium/050-pow(x,n).py)
+- [1922. Count Good Numbers (IMP, simlar to 50. Pow(x,n))](medium/1922-count-good-numbers.py)
+- [22. Generate Parenthesis !(Backtracking)](medium/022-generate-parenthesis.py)
+- [39. Combination Sum](medium/039-combination-sum.py)
+- [40. Combination Sum II](medium/040-combination-sum-2.py)
+- [78. Subsets](medium/078-subsets.py)
+- [90. Subsets II](medium/090-subsets-2.py)
+- [216. Combination Sum III](medium/216-combination-sum-3.py)
+- [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
+- [79. Word Search (IMP)](medium)
 
 
 ### 🔴 Hard Problems
