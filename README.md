@@ -136,7 +136,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [90. Subsets II](medium/090-subsets-2.py)
 - [216. Combination Sum III](medium/216-combination-sum-3.py)
 - [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
-- [79. Word Search (IMP)](medium)
+- [79. Word Search (IMP)](medium/079-word-search.py)
 
 
 ### 🔴 Hard Problems
