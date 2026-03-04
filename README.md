@@ -144,6 +144,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [410. Split Array Largest Sum](hard/410-split-array-largest-sum.py)
 - [2. Median of Two Sorted Arrays](hard/02-median-of-two-sorted-array.py)
 - [25. Reverse Nodes in k-Group](hard/025-reverse-nodes-in-k-group.py)
+- [51. N-Queens (IMP)](hard/051-N-queens-backtracking.py)
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
