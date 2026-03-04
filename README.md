@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 42      |
 | 🟡 Medium  | 59      |
-| 🔴 Hard    | 4      |
-| **Total**  | **105**  |
+| 🔴 Hard    | 5      |
+| **Total**  | **106**  |
 
 ## 🗂️ Repository Structure
 
