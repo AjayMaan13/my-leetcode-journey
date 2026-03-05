@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 42      |
 | 🟡 Medium  | 59      |
-| 🔴 Hard    | 6      |
-| **Total**  | **107**  |
+| 🔴 Hard    | 7      |
+| **Total**  | **108**  |
 
 ## 🗂️ Repository Structure
 
@@ -146,6 +146,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [25. Reverse Nodes in k-Group](hard/025-reverse-nodes-in-k-group.py)
 - [51. N-Queens (IMP)](hard/051-N-queens-backtracking.py)
 - [37. Sudoku Solver](hard/037-sudoku-solver.py)
+- [282. Expressions Add Operator](hard/282-expressions-add-operator.py)
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
