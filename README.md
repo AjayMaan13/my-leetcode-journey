@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 43      |
+| 🟢 Easy    | 44      |
 | 🟡 Medium  | 60      |
 | 🔴 Hard    | 7      |
-| **Total**  | **110**  |
+| **Total**  | **111**  |
 
 ## 🗂️ Repository Structure
 
@@ -73,6 +73,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [160. Intersection of Two Linked Lists](easy/160-intersection-of-two-linked-lists.py)
 
 - [231. Power of Two](easy/231-power-of-two.py)
+- [2220. Minimum Bit Flips to Convert Number](easy/2220-minimum-bit-flips.py)
 
 
 ### 🟡 Medium Problems
