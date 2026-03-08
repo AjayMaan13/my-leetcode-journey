@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 42      |
+| 🟢 Easy    | 43      |
 | 🟡 Medium  | 59      |
 | 🔴 Hard    | 7      |
-| **Total**  | **108**  |
+| **Total**  | **109**  |
 
 ## 🗂️ Repository Structure
 
@@ -71,6 +71,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 - [234. Palindrome Linked List](easy/234-palindrome-linked-list.py)
 - [160. Intersection of Two Linked Lists](easy/160-intersection-of-two-linked-lists.py)
+- [231. Power of Two](easy/231-power-of-two.py)
 
 
 ### 🟡 Medium Problems
