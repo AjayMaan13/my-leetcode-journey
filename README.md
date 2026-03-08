@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 43      |
-| 🟡 Medium  | 59      |
+| 🟡 Medium  | 60      |
 | 🔴 Hard    | 7      |
-| **Total**  | **109**  |
+| **Total**  | **110**  |
 
 ## 🗂️ Repository Structure
 
@@ -71,6 +71,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 - [234. Palindrome Linked List](easy/234-palindrome-linked-list.py)
 - [160. Intersection of Two Linked Lists](easy/160-intersection-of-two-linked-lists.py)
+
 - [231. Power of Two](easy/231-power-of-two.py)
 
 
@@ -138,6 +139,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [216. Combination Sum III](medium/216-combination-sum-3.py)
 - [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
 - [79. Word Search (IMP)](medium/079-word-search.py)
+
+- [29. Divide Two Integers](medium/029-divide-two-integers.py)
+
 
 
 ### 🔴 Hard Problems
