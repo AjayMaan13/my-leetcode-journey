@@ -142,7 +142,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
 - [79. Word Search (IMP)](medium/079-word-search.py)
 
+#### Bit Manipulation
 - [29. Divide Two Integers](medium/029-divide-two-integers.py)
+- [78. Subsets](medium/078-subsets.py)
 
 
 

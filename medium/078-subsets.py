@@ -129,19 +129,64 @@ def subsets_v2(nums: list) -> list:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# APPROACH 3: BITMASK (from Power Set / Subsequences problem)
+# APPROACH 3: BITMASK
 # Time  : O(n * 2^n)
 # Space : O(1)  — no recursion stack
 #
-# Every number 0 to 2^n-1 represents a subset via its binary bits.
-# Bit i set → include nums[i].
-# Included here to show the connection to the "Power Set of a String" problem.
+# Core idea:
+#   For n elements, there are exactly 2^n subsets.
+#   Every integer from 0 to 2^n-1 has a unique binary pattern of n bits.
+#   We use each integer as a "blueprint" — each bit says include or exclude.
+#
+#   Bit position i is SET   (1) → include nums[i]
+#   Bit position i is UNSET (0) → exclude nums[i]
+#
+# Example: nums = [1, 2, 3],  n = 3  →  2^3 = 8 masks (0 through 7)
+#
+#   mask  binary   bit2 bit1 bit0   subset
+#   ────  ──────   ──── ──── ────   ──────
+#     0   000       0    0    0     []            ← no bits set, include nothing
+#     1   001       0    0    1     [1]           ← bit 0 set → include nums[0]=1
+#     2   010       0    1    0     [2]           ← bit 1 set → include nums[1]=2
+#     3   011       0    1    1     [1, 2]        ← bits 0,1 set
+#     4   100       1    0    0     [3]           ← bit 2 set → include nums[2]=3
+#     5   101       1    0    1     [1, 3]        ← bits 0,2 set
+#     6   110       1    1    0     [2, 3]        ← bits 1,2 set
+#     7   111       1    1    1     [1, 2, 3]     ← all bits set, include everything
+#
+# How we CHECK if bit i is set in mask:
+#   mask & (1 << i)
+#   │         └── creates a number with ONLY bit i set: 1, 2, 4, 8, ...
+#   └── AND with mask: result is non-zero only if mask also has bit i set
+#
+#   e.g. mask=5 (101), i=0: 101 & 001 = 001 ≠ 0 → include nums[0]
+#        mask=5 (101), i=1: 101 & 010 = 000 = 0 → skip nums[1]
+#        mask=5 (101), i=2: 101 & 100 = 100 ≠ 0 → include nums[2]
+#
+# How we generate all 2^n masks:
+#   range(1 << n)  →  range(2^n)  →  0, 1, 2, ..., 2^n - 1
 # ─────────────────────────────────────────────────────────────────────────────
 def subsets_bitmask(nums: list) -> list:
     n = len(nums)
     result = []
-    for mask in range(1 << n):      # 0 to 2^n - 1
+    for mask in range(1 << n):      # iterate over every possible bitmask (0 to 2^n-1)
         subset = [nums[i] for i in range(n) if mask & (1 << i)]
         result.append(subset)
     return result
 
+
+# Same logic written explicitly (easier to trace):
+def subsets_bitmask_2(nums):
+    n = len(nums)
+    result = []
+
+    for mask in range(1 << n):      # 2^n masks total
+        subset = []
+
+        for i in range(n):          # check each bit position 0..n-1
+            if mask & (1 << i):     # is bit i set in this mask?
+                subset.append(nums[i])  # yes → include nums[i] in this subset
+
+        result.append(subset)       # this mask's subset is complete
+
+    return result
