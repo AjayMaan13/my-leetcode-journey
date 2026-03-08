@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 44      |
-| 🟡 Medium  | 60      |
+| 🟡 Medium  | 61      |
 | 🔴 Hard    | 7      |
-| **Total**  | **111**  |
+| **Total**  | **112**  |
 
 ## 🗂️ Repository Structure
 
@@ -144,7 +144,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Bit Manipulation
 - [29. Divide Two Integers](medium/029-divide-two-integers.py)
-- [78. Subsets](medium/078-subsets.py)
+- [260. Single Number III](medium/260-single-number-III.py)
 
 
 
