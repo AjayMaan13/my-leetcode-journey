@@ -50,7 +50,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [283. Move Zeroes](easy/283-move-zeroes.py)
 - [268. Missing Number](easy/268-missing-number.py)
 - [485. Max Consecutive Ones](easy/485-max-consecutive-ones.py)
-- [138. Sorting Numbers](easy/138-sorting-numbers.py)
 - [169. Majority Element](easy/169-majority-element.py)
 - [121. Best Time to Buy and Sell Stock](easy/121-best-time-to-buy-and-sell-stock.py)
 - [118. Pascal's Triangle](easy/118-pascals-triangle.py)
@@ -72,8 +71,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [234. Palindrome Linked List](easy/234-palindrome-linked-list.py)
 - [160. Intersection of Two Linked Lists](easy/160-intersection-of-two-linked-lists.py)
 
+#### Bit Manipulation
 - [231. Power of Two](easy/231-power-of-two.py)
 - [2220. Minimum Bit Flips to Convert Number](easy/2220-minimum-bit-flips.py)
+- [136. Single Number](easy/136-single-number.py)
 
 
 ### 🟡 Medium Problems
