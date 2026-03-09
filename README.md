@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 45      |
-| 🟡 Medium  | 62      |
+| 🟡 Medium  | 63      |
 | 🔴 Hard    | 7      |
-| **Total**  | **114**  |
+| **Total**  | **115**  |
 
 ## 🗂️ Repository Structure
 
@@ -152,6 +152,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [137. Single Number II](medium/137-single-number-II.py)
 
 #### Math
+
+- [1390. Four Divisors](medium/1390-four-divisors.py)
 
 
 
