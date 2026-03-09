@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 44      |
+| 🟢 Easy    | 45      |
 | 🟡 Medium  | 62      |
 | 🔴 Hard    | 7      |
-| **Total**  | **113**  |
+| **Total**  | **114**  |
 
 ## 🗂️ Repository Structure
 
@@ -76,8 +76,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [2220. Minimum Bit Flips to Convert Number](easy/2220-minimum-bit-flips.py)
 - [136. Single Number](easy/136-single-number.py)
 
+#### Math
+- [507. Perfect Number](easy/507-perfect-number.py)
+
 
 ### 🟡 Medium Problems
+
 - [002. Add Two Numbers](medium/002-add-two-numbers.py)
 - [189. Rotate Array](/medium/189-rotate-array.py)
 - [126. Two Sum II](medium/126-two-sum-II.py)
@@ -146,6 +150,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [29. Divide Two Integers](medium/029-divide-two-integers.py)
 - [260. Single Number III](medium/260-single-number-III.py)
 - [137. Single Number II](medium/137-single-number-II.py)
+
+#### Math
 
 
 
