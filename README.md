@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 45      |
+| 🟢 Easy    | 46      |
 | 🟡 Medium  | 65      |
 | 🔴 Hard    | 7      |
-| **Total**  | **117**  |
+| **Total**  | **118**  |
 
 ## 🗂️ Repository Structure
 
@@ -78,6 +78,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Math
 - [507. Perfect Number](easy/507-perfect-number.py)
+
+#### Stack/Queue/dequeue
+- [225. Implement Stack using Queues](easy/225-implement-stack-using-queues.py)
+
 
 
 ### 🟡 Medium Problems
