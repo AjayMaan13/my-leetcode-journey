@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 46      |
+| 🟢 Easy    | 47      |
 | 🟡 Medium  | 65      |
 | 🔴 Hard    | 7      |
-| **Total**  | **118**  |
+| **Total**  | **119**  |
 
 ## 🗂️ Repository Structure
 
@@ -81,6 +81,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Stack/Queue/dequeue
 - [225. Implement Stack using Queues](easy/225-implement-stack-using-queues.py)
+- [232. Implement Queue using Stacks](easy/232-implement-queue-using-stacks.py)
 
 
 

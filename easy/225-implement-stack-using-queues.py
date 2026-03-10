@@ -79,7 +79,7 @@ from collections import deque
 
 class MyStackTwoQueuesDeque(object):
     def __init__(self):
-        self.q1 = deque()  # main queue — front is always the stack top
+        self.q1 = deque()  # main queue — front(left) is always the stack top
         self.q2 = deque()  # temp queue used during push
 
     def push(self, x):
