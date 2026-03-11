@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 65      |
+| 🟡 Medium  | 66      |
 | 🔴 Hard    | 7      |
-| **Total**  | **119**  |
+| **Total**  | **120**  |
 
 ## 🗂️ Repository Structure
 
@@ -160,6 +160,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1362. Closest Divisors](medium/1362-closest-divisors.py)
 - [1390. Four Divisors](medium/1390-four-divisors.py)
 - [1492. The kth Factor of n](medium/1492-kth-factor-of-n.py)
+
+#### Stack
+- [155. Min Stack](medium/155-min-stack.py)
+
 
 
 
