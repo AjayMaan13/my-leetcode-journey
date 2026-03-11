@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 66      |
+| 🟡 Medium  | 67      |
 | 🔴 Hard    | 7      |
-| **Total**  | **120**  |
+| **Total**  | **121**  |
 
 ## 🗂️ Repository Structure
 
@@ -83,6 +83,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [232. Implement Queue using Stacks](easy/232-implement-queue-using-stacks.py)
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
 
+#### Infix/Prefix/Postfix
 
 
 ### 🟡 Medium Problems
@@ -163,6 +164,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Stack
 - [155. Min Stack](medium/155-min-stack.py)
+
+#### Infix/Prefix/Postfix
+- [150. Evaluate Reverse Polish Notation](medium/150-evaluate-reverse-polish-notation.py)
 
 
 
