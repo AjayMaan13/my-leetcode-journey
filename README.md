@@ -36,7 +36,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [125. Is Palindrome](easy/125-is-palindrome.py)
 - [392. Is Sequence](easy/392-is-sequence.py)
 - [383. Ransom Note](easy/383-ransom-note.py)
-- [020. Valid Parentheses](easy/020-valid-parentheses.py)
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 - [100. Is Same Tree](easy/100-is-same-tree.py)
@@ -82,6 +81,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Stack/Queue/dequeue
 - [225. Implement Stack using Queues](easy/225-implement-stack-using-queues.py)
 - [232. Implement Queue using Stacks](easy/232-implement-queue-using-stacks.py)
+- [020. Valid Parentheses](easy/020-valid-parentheses.py)
 
 
 
