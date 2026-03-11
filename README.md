@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 67      |
+| 🟡 Medium  | 68      |
 | 🔴 Hard    | 7      |
-| **Total**  | **121**  |
+| **Total**  | **122**  |
 
 ## 🗂️ Repository Structure
 
@@ -167,6 +167,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Infix/Prefix/Postfix
 - [150. Evaluate Reverse Polish Notation](medium/150-evaluate-reverse-polish-notation.py)
+- [227. Basic Calculator II](medium/227-basic-calculator-II.py)
 
 
 
