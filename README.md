@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 47      |
 | 🟡 Medium  | 68      |
-| 🔴 Hard    | 7      |
-| **Total**  | **122**  |
+| 🔴 Hard    | 8      |
+| **Total**  | **123**  |
 
 ## 🗂️ Repository Structure
 
@@ -173,13 +173,15 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 
 ### 🔴 Hard Problems
+
+- [224. Basic Calculator](hard/224-basic-calculator.py)
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
 - [410. Split Array Largest Sum](hard/410-split-array-largest-sum.py)
 - [2. Median of Two Sorted Arrays](hard/02-median-of-two-sorted-array.py)
 - [25. Reverse Nodes in k-Group](hard/025-reverse-nodes-in-k-group.py)
 - [51. N-Queens (IMP)](hard/051-N-queens-backtracking.py)
 - [37. Sudoku Solver](hard/037-sudoku-solver.py)
-- [282. Expressions Add Operator](hard/282-expressions-add-operator.py)
+- [282. Expressions Add Operator (IMP)](hard/282-expressions-add-operator.py)
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
