@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 68      |
+| 🟡 Medium  | 69      |
 | 🔴 Hard    | 8      |
-| **Total**  | **123**  |
+| **Total**  | **124**  |
 
 ## 🗂️ Repository Structure
 
@@ -83,7 +83,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [232. Implement Queue using Stacks](easy/232-implement-queue-using-stacks.py)
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
 
-#### Infix/Prefix/Postfix
 
 
 ### 🟡 Medium Problems
@@ -151,6 +150,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [216. Combination Sum III](medium/216-combination-sum-3.py)
 - [17. Letter Combination of Phone Number](medium/017-letter-comb-of-phone-no.py)
 - [79. Word Search (IMP)](medium/079-word-search.py)
+- [241. Different Ways to Add Parentheses (Divide & Conquer)](medium/241-different-ways-to-add-parentheses.py)
 
 #### Bit Manipulation
 - [29. Divide Two Integers](medium/029-divide-two-integers.py)
@@ -169,6 +169,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [150. Evaluate Reverse Polish Notation](medium/150-evaluate-reverse-polish-notation.py)
 - [227. Basic Calculator II](medium/227-basic-calculator-II.py)
 
+#### Divide & Conquer
 
 
 
