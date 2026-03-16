@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 47      |
+| 🟢 Easy    | 48      |
 | 🟡 Medium  | 69      |
 | 🔴 Hard    | 8      |
-| **Total**  | **124**  |
+| **Total**  | **125**  |
 
 ## 🗂️ Repository Structure
 
@@ -82,6 +82,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [225. Implement Stack using Queues](easy/225-implement-stack-using-queues.py)
 - [232. Implement Queue using Stacks](easy/232-implement-queue-using-stacks.py)
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
+- [496. Next Greater Element I](easy/496-next-greater-element-I.py)
 
 
 
@@ -165,17 +166,15 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Stack
 - [155. Min Stack](medium/155-min-stack.py)
 
+
 #### Infix/Prefix/Postfix
 - [150. Evaluate Reverse Polish Notation](medium/150-evaluate-reverse-polish-notation.py)
 - [227. Basic Calculator II](medium/227-basic-calculator-II.py)
-
-#### Divide & Conquer
 
 
 
 ### 🔴 Hard Problems
 
-- [224. Basic Calculator](hard/224-basic-calculator.py)
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
 - [410. Split Array Largest Sum](hard/410-split-array-largest-sum.py)
 - [2. Median of Two Sorted Arrays](hard/02-median-of-two-sorted-array.py)
@@ -183,6 +182,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [51. N-Queens (IMP)](hard/051-N-queens-backtracking.py)
 - [37. Sudoku Solver](hard/037-sudoku-solver.py)
 - [282. Expressions Add Operator (IMP)](hard/282-expressions-add-operator.py)
+- [224. Basic Calculator](hard/224-basic-calculator.py)
+
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
