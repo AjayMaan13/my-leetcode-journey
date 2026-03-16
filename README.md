@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 48      |
-| 🟡 Medium  | 69      |
+| 🟡 Medium  | 70      |
 | 🔴 Hard    | 8      |
-| **Total**  | **125**  |
+| **Total**  | **126**  |
 
 ## 🗂️ Repository Structure
 
@@ -165,6 +165,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Stack
 - [155. Min Stack](medium/155-min-stack.py)
+- [503. Next Greater Element II](medium/503-next-greater-element-II.py)
 
 
 #### Infix/Prefix/Postfix
