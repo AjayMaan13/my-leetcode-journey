@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 48      |
 | 🟡 Medium  | 70      |
-| 🔴 Hard    | 8      |
-| **Total**  | **126**  |
+| 🔴 Hard    | 9      |
+| **Total**  | **127**  |
 
 ## 🗂️ Repository Structure
 
@@ -184,6 +184,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [37. Sudoku Solver](hard/037-sudoku-solver.py)
 - [282. Expressions Add Operator (IMP)](hard/282-expressions-add-operator.py)
 - [224. Basic Calculator](hard/224-basic-calculator.py)
+- [42. Trapping Rain Water](hard/042-trapping-rain-water.py)
 
 
 ## 📚 Topics to Explore
