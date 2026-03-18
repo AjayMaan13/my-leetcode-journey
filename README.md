@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 48      |
-| 🟡 Medium  | 72      |
+| 🟢 Easy    | 47      |
+| 🟡 Medium  | 74      |
 | 🔴 Hard    | 9      |
-| **Total**  | **129**  |
+| **Total**  | **130**  |
 
 ## 🗂️ Repository Structure
 
@@ -165,6 +165,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Stack / Monolithic Stacks
 - [155. Min Stack](medium/155-min-stack.py)
+- [907. Sum of Subarray Minimums](medium/907-sum-of-subarray-minimums.py)
 - [402. Remove K Digits](medium/402-remove-k-digits.py)
 - [503. Next Greater Element II](medium/503-next-greater-element-II.py)
 - [735. Asteroid Collision](medium/735-asteroid-collision.py)
