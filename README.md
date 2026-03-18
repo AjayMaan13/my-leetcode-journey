@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 48      |
-| 🟡 Medium  | 71      |
+| 🟡 Medium  | 72      |
 | 🔴 Hard    | 9      |
-| **Total**  | **128**  |
+| **Total**  | **129**  |
 
 ## 🗂️ Repository Structure
 
@@ -163,8 +163,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1390. Four Divisors](medium/1390-four-divisors.py)
 - [1492. The kth Factor of n](medium/1492-kth-factor-of-n.py)
 
-#### Stack
+#### Stack / Monolithic Stacks
 - [155. Min Stack](medium/155-min-stack.py)
+- [402. Remove K Digits](medium/402-remove-k-digits.py)
 - [503. Next Greater Element II](medium/503-next-greater-element-II.py)
 - [735. Asteroid Collision](medium/735-asteroid-collision.py)
 
