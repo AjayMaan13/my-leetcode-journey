@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 47      |
 | 🟡 Medium  | 75      |
-| 🔴 Hard    | 9      |
-| **Total**  | **131**  |
+| 🔴 Hard    | 10      |
+| **Total**  | **132**  |
 
 ## 🗂️ Repository Structure
 
@@ -179,6 +179,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 
 ### 🔴 Hard Problems
+- [84. Largest Rectangle in Histogram](hard/84-largest-rectangle-in-histogram.py)
 
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
 - [410. Split Array Largest Sum](hard/410-split-array-largest-sum.py)
