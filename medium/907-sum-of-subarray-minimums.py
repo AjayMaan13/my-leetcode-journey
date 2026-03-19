@@ -74,27 +74,6 @@ class SolutionO2(object):
         return ans
 
 
-# ===== Optimal Solution (Monotonic Stack — O(n)) =====
-#
-# Same contribution idea as Solution 2 but we precompute left[] and right[]
-# for ALL elements in O(n) using a monotonic stack instead of O(n) per element.
-#
-# For each index i we need:
-#   left[i]  = i - (index of previous element strictly smaller than arr[i])
-#            = number of choices for the LEFT boundary of subarrays where arr[i] is min
-#   right[i] = (index of next element <= arr[i]) - i
-#            = number of choices for the RIGHT boundary
-#
-# Why asymmetric comparisons (< vs <=)?
-#   To handle DUPLICATES without double-counting.
-#   If arr = [2, 2], both elements can't both be the min of the full subarray [2,2].
-#   Left uses strict '<' (pop on >=) → left element "wins" ties.
-#   Right uses '<=' (pop on >) → right element does NOT claim tie subarrays.
-#   This ensures each subarray is counted by exactly one index.
-#
-# Contribution formula: arr[i] * left[i] * right[i]
-#   left[i] * right[i] = total subarrays where arr[i] is the minimum.
-#
 # ===== Optimal Solution 1: Two-Pass Monotonic Stack (Two Arrays) =====
 # Precompute left[] and right[] for ALL elements in two separate passes.
 # left[i]  = how far left arr[i] can extend as the minimum (previous smaller is the wall)
@@ -109,14 +88,10 @@ class SolutionOptimal(object):
         # left index is values smaller than arr[i] i.e previous smaller
         # right index is values equal or greater than arr[i] next greater
         MOD = 10**9 + 7
-        n   = len(arr)
+        left = [0] * len(arr)
+        right = [0] * len(arr)
+        res = 0
 
-        left  = [0] * n   # left[i]  = distance to previous strictly smaller element
-        right = [0] * n   # right[i] = distance to next smaller-or-equal element
-
-        # --- Pass 1: Previous Smaller (strictly <) ---
-        # Pop stack while top element is >= arr[i] (not a valid left boundary).
-        # Stack holds indices of elements in increasing order.
         stack = []
         for i in range(len(arr)):
             curr = arr[i]
@@ -130,9 +105,6 @@ class SolutionOptimal(object):
             left[i] = i - stack[-1] if stack else i + 1
             stack.append(i)
 
-        # --- Pass 2: Next Smaller or Equal (<=) ---
-        # Pop stack while top element is > arr[i] (arr[i] would be a better/equal min).
-        # Iterate right-to-left so stack stays in order.
         stack = []
         for i in range(len(arr) - 1, -1, -1):
             curr = arr[i]
