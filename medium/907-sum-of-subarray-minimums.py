@@ -73,8 +73,27 @@ class SolutionO2(object):
 
         return ans
 
+# ===== Optimal Solution (Monotonic Stack — O(n)) =====
+#
+# Same contribution idea as Solution 2 but we precompute left[] and right[]
+# for ALL elements in O(n) using a monotonic stack instead of O(n) per element.
+#
+# For each index i we need:
+#   left[i]  = i - (index of previous element strictly smaller than arr[i])
+#            = number of choices for the LEFT boundary of subarrays where arr[i] is min
+#   right[i] = (index of next element <= arr[i]) - i
+#            = number of choices for the RIGHT boundary
+#
+# Why asymmetric comparisons (< vs <=)?
+#   To handle DUPLICATES without double-counting.
+#   If arr = [2, 2], both elements can't both be the min of the full subarray [2,2].
+#   Left uses strict '<' (pop on >=) → left element "wins" ties.
+#   Right uses '<=' (pop on >) → right element does NOT claim tie subarrays.
+#   This ensures each subarray is counted by exactly one index.
+#
+# Contribution formula: arr[i] * left[i] * right[i]
+#   left[i] * right[i] = total subarrays where arr[i] is the minimum.
 
-# ===== Optimal Solution 1: Two-Pass Monotonic Stack (Two Arrays) =====
 # Precompute left[] and right[] for ALL elements in two separate passes.
 # left[i]  = how far left arr[i] can extend as the minimum (previous smaller is the wall)
 # right[i] = how far right arr[i] can extend as the minimum (next smaller-or-equal is the wall)
