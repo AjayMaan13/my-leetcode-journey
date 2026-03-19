@@ -95,10 +95,19 @@ class SolutionO2(object):
 # Contribution formula: arr[i] * left[i] * right[i]
 #   left[i] * right[i] = total subarrays where arr[i] is the minimum.
 #
+# ===== Optimal Solution 1: Two-Pass Monotonic Stack (Two Arrays) =====
+# Precompute left[] and right[] for ALL elements in two separate passes.
+# left[i]  = how far left arr[i] can extend as the minimum (previous smaller is the wall)
+# right[i] = how far right arr[i] can extend as the minimum (next smaller-or-equal is the wall)
+# Asymmetric comparisons handle duplicates — left uses >, right uses >= on pop,
+# so ties are always "won" by the LEFT occurrence (no double-counting).
 # Time: O(n) | Space: O(n)
 
 class SolutionOptimal(object):
     def sumSubarrayMins(self, arr):
+        # i = arr[i] * left_extend * right_extend
+        # left index is values smaller than arr[i] i.e previous smaller
+        # right index is values equal or greater than arr[i] next greater
         MOD = 10**9 + 7
         n   = len(arr)
 
@@ -109,59 +118,65 @@ class SolutionOptimal(object):
         # Pop stack while top element is >= arr[i] (not a valid left boundary).
         # Stack holds indices of elements in increasing order.
         stack = []
-        for i in range(n):
-            while stack and arr[stack[-1]] >= arr[i]:
-                stack.pop()                          # remove elements that are >= arr[i]
+        for i in range(len(arr)):
+            curr = arr[i]
 
-            prev    = stack[-1] if stack else -1     # nearest index with arr[prev] < arr[i]
-            left[i] = i - prev                       # elements from prev+1 to i (inclusive)
+            # we want to store the last smallest value cause it shows us the
+            # breaking point of where the bigger values to left extend to
+            while stack and arr[stack[-1]] > curr:
+                stack.pop()
+
+            # distance from previous smaller to i (inclusive) = left extension count
+            left[i] = i - stack[-1] if stack else i + 1
             stack.append(i)
 
         # --- Pass 2: Next Smaller or Equal (<=) ---
         # Pop stack while top element is > arr[i] (arr[i] would be a better/equal min).
         # Iterate right-to-left so stack stays in order.
         stack = []
-        for i in range(n - 1, -1, -1):
-            while stack and arr[stack[-1]] > arr[i]:
-                stack.pop()                          # remove elements strictly greater than arr[i]
+        for i in range(len(arr) - 1, -1, -1):
+            curr = arr[i]
 
-            nxt      = stack[-1] if stack else n     # nearest index with arr[nxt] <= arr[i]
-            right[i] = nxt - i                       # elements from i to nxt-1 (inclusive)
+            # pop bigger values so that we know how much it extend to the right
+            while stack and arr[stack[-1]] >= curr:
+                stack.pop()
+
+            # distance from i to next smaller-or-equal (inclusive) = right extension count
+            right[i] = stack[-1] - i if stack else len(arr) - i
             stack.append(i)
 
-        # --- Pass 3: Sum contributions ---
-        ans = 0
-        for i in range(n):
-            ans = (ans + arr[i] * left[i] * right[i]) % MOD
+        for i in range(len(arr)):
+            res += arr[i] * left[i] * right[i]
 
-        return ans
+        return res % MOD
 
 
-# ===== Optimal Solution 2: Single-Pass Monotonic Stack =====
-# Same O(n) idea but computes contributions ON POP instead of precomputing left[]/right[].
-# When we pop index `mid`, we know:
-#   - arr[mid] is larger than cur (the element that caused the pop) → right boundary = i
-#   - stack[-1] after popping is the previous smaller element → left boundary
-# So contribution of arr[mid] = arr[mid] * (mid - left) * (right - mid)
-# Appends sentinel 0 at the end (i = len(arr)) to flush remaining stack elements.
+# ===== Optimal Solution 2: Single-Pass Monotonic Stack (On-Pop Contribution) =====
+# Instead of two separate passes, compute each element's contribution the moment it's popped.
+# When index `popped` is popped, arr[popped] is confirmed as minimum for a range:
+#   left  boundary = stack[-1] after pop (nearest smaller to left)
+#   right boundary = i (current index that triggered the pop, first smaller to right)
+# Sentinel cur=0 at i=len(arr) flushes all remaining stack elements cleanly.
 # Time: O(n) | Space: O(n)
 
 class SolutionSinglePass(object):
     def sumSubarrayMins(self, arr):
-        MOD   = 10**9 + 7
-        stack = []   # monotonic increasing stack of indices
-        res   = 0
+        MOD = 10**9 + 7
+        res = 0
 
+        stack = []
         for i in range(len(arr) + 1):
-            cur = arr[i] if i < len(arr) else 0   # sentinel 0 flushes remaining stack at end
+            cur = arr[i] if i < len(arr) else 0  # sentinel 0 forces full flush at end
 
             while stack and arr[stack[-1]] > cur:
-                mid   = stack.pop()                # arr[mid] is the minimum for some subarrays
+                popped = stack.pop()
 
-                left  = stack[-1] if stack else -1 # nearest index to left with arr[left] < arr[mid]
-                right = i                          # current index is the first element < arr[mid] on right
+                # popped - last_smallest contain all the values that are bigger than popped in between, so we don't need to add 1
+                left = popped - stack[-1] if stack else popped + 1
 
-                res += arr[mid] * (mid - left) * (right - mid)  # count * value
+                # i is the next smallest, i.e breaking point and diff = all values bigger than popped
+                right = i - popped
+                res += arr[popped] * left * right
 
             stack.append(i)
 
@@ -176,11 +191,11 @@ if __name__ == "__main__":
     single_pass = SolutionSinglePass()
 
     test_cases = [
-        ([3, 1, 2, 4],       17),
+        ([3, 1, 2, 4],        17),
         ([11, 81, 94, 43, 3], 444),
-        ([1],                 1),
-        ([3, 3],              9),   # duplicate test: [3]->3, [3]->3, [3,3]->3 = 9
-        ([1, 2, 3],          10),
+        ([1],                  1),
+        ([3, 3],               9),   # duplicate: [3]->3, [3]->3, [3,3]->3 = 9
+        ([1, 2, 3],           10),
     ]
 
     for arr, expected in test_cases:
@@ -189,4 +204,4 @@ if __name__ == "__main__":
         r3 = optimal.sumSubarrayMins(arr[:])
         r4 = single_pass.sumSubarrayMins(arr[:])
         status = "PASS" if r1 == expected and r2 == expected and r3 == expected and r4 == expected else "FAIL"
-        print(f"{status} arr={arr} -> brute={r1}, O(n2)={r2}, optimal={r3}, single_pass={r4} (expected {expected})")
+        print(f"{status} arr={arr} -> brute={r1}, O(n2)={r2}, two-pass={r3}, single-pass={r4} (expected {expected})")
