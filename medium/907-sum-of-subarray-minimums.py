@@ -156,7 +156,7 @@ class SolutionSinglePass(object):
         res = 0
 
         stack = []
-        for i in range(len(arr) + 1):
+        for i in range(len(arr) + 1): # (IMP) Going one above last index, flushes every element in stack
             cur = arr[i] if i < len(arr) else 0  # sentinel 0 forces full flush at end
 
             while stack and arr[stack[-1]] > cur:
