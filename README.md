@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 75      |
+| 🟡 Medium  | 76      |
 | 🔴 Hard    | 12      |
-| **Total**  | **134**  |
+| **Total**  | **135**  |
 
 ## 🗂️ Repository Structure
 
@@ -170,6 +170,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [402. Remove K Digits](medium/402-remove-k-digits.py)
 - [503. Next Greater Element II](medium/503-next-greater-element-II.py)
 - [735. Asteroid Collision](medium/735-asteroid-collision.py)
+- [901. Online Stock Span (Monotonic Stack)](medium/901-online-stock-span.py)
 
 
 #### Infix/Prefix/Postfix
