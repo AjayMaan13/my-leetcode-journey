@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 47      |
 | 🟡 Medium  | 75      |
-| 🔴 Hard    | 11      |
-| **Total**  | **133**  |
+| 🔴 Hard    | 12      |
+| **Total**  | **134**  |
 
 ## 🗂️ Repository Structure
 
@@ -193,6 +193,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [42. Trapping Rain Water](hard/042-trapping-rain-water.py)
 - [84. Largest Rectangle in Histogram](hard/84-largest-rectangle-in-histogram.py)
 - [85. Maximal Rectangle](hard/085-maximal-rectangle.py)
+- [239. Sliding Window Maximum (Monotonic Deque)](hard/239-sliding-window-maximum.py)
 
 
 
