@@ -10,18 +10,25 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 76      |
+| 🟡 Medium  | 77      |
 | 🔴 Hard    | 12      |
-| **Total**  | **135**  |
+| **Total**  | **136**  |
 
 ## 🗂️ Repository Structure
 
 ```
 📦 leetcode-solutions
-├── easy/     - Easy difficulty problems
-├── medium/   - Medium difficulty problems
-├── hard/     - Hard difficulty problems
-└── README.md - This file with topic index
+├── easy/                   - Easy difficulty problems
+├── medium/                 - Medium difficulty problems
+├── hard/                   - Hard difficulty problems
+├── Extra/                  - Topic-wise extra problems & patterns
+│   ├── arrays/             - Array techniques
+│   ├── binary-search/      - Binary search variants & 2D
+│   ├── sliding-window/     - Sliding window patterns
+│   ├── recursion/          - Recursion patterns
+│   ├── Linked-List/        - Linked list extras
+│   └── greedy/             - Greedy & elimination problems
+└── README.md               - This file with topic index
 ```
 
 ## 🔍 Solutions
@@ -197,6 +204,16 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [239. Sliding Window Maximum (Monotonic Deque)](hard/239-sliding-window-maximum.py)
 
 
+
+---
+
+### 🎨 Design Problems
+
+| #   | Problem                               | Tag                          | Solution                                            |
+|-----|---------------------------------------|------------------------------|-----------------------------------------------------|
+| 146 | [LRU Cache](medium/146-lru-cache.py) | HashMap + Doubly Linked List | [medium/146-lru-cache.py](medium/146-lru-cache.py) |
+
+---
 
 ## 📚 Topics to Explore
 - 📋 Arrays & Strings
