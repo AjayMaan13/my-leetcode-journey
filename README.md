@@ -184,6 +184,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [150. Evaluate Reverse Polish Notation](medium/150-evaluate-reverse-polish-notation.py)
 - [227. Basic Calculator II](medium/227-basic-calculator-II.py)
 
+- [146. LRU Cache (Design)](medium/146-lru-cache.py)
 
 
 ### 🔴 Hard Problems
@@ -202,7 +203,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [84. Largest Rectangle in Histogram](hard/84-largest-rectangle-in-histogram.py)
 - [85. Maximal Rectangle](hard/085-maximal-rectangle.py)
 - [239. Sliding Window Maximum (Monotonic Deque)](hard/239-sliding-window-maximum.py)
-
+- [460. LFU Cache](hard/460-lfu-cache.py)
 
 
 ---
