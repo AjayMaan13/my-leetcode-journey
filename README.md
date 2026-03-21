@@ -11,24 +11,24 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 47      |
 | 🟡 Medium  | 77      |
-| 🔴 Hard    | 12      |
-| **Total**  | **136**  |
+| 🔴 Hard    | 13      |
+| **Total**  | **137**  |
 
 ## 🗂️ Repository Structure
 
 ```
 📦 leetcode-solutions
-├── easy/                   - Easy difficulty problems
-├── medium/                 - Medium difficulty problems
-├── hard/                   - Hard difficulty problems
-├── Extra/                  - Topic-wise extra problems & patterns
-│   ├── arrays/             - Array techniques
-│   ├── binary-search/      - Binary search variants & 2D
-│   ├── sliding-window/     - Sliding window patterns
-│   ├── recursion/          - Recursion patterns
-│   ├── Linked-List/        - Linked list extras
-│   └── greedy/             - Greedy & elimination problems
-└── README.md               - This file with topic index
+├── easy/                 - Easy difficulty problems
+├── medium/               - Medium difficulty problems
+├── hard/                 - Hard difficulty problems
+├── Extra/                - Topic-wise extra problems & patterns
+│   ├── arrays/           - Array techniques
+│   ├── binary-search/    - Binary search variants & 2D
+│   ├── sliding-window/   - Sliding window patterns
+│   ├── recursion/        - Recursion patterns
+│   ├── Linked-List/      - Linked list extras
+│   └── greedy/           - Greedy & elimination problems
+└── README.md             - This file with topic index
 ```
 
 ## 🔍 Solutions
@@ -209,9 +209,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🎨 Design Problems
 
-| #   | Problem                               | Tag                          | Solution                                            |
-|-----|---------------------------------------|------------------------------|-----------------------------------------------------|
-| 146 | [LRU Cache](medium/146-lru-cache.py) | HashMap + Doubly Linked List | [medium/146-lru-cache.py](medium/146-lru-cache.py) |
+| #   | Problem                               | Tag                                    |
+|-----|---------------------------------------|----------------------------------------|
+| 146 | [LRU Cache](medium/146-lru-cache.py)  | HashMap + Doubly Linked List           |
+| 460 | [LFU Cache](hard/460-lfu-cache.py)    | HashMap + Freq Buckets (DLL / OrdDict) |
 
 ---
 
