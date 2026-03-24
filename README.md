@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 48      |
-| 🟡 Medium  | 77      |
+| 🟡 Medium  | 78      |
 | 🔴 Hard    | 13      |
-| **Total**  | **138**  |
+| **Total**  | **139**  |
 
 ## 🗂️ Repository Structure
 
@@ -188,6 +188,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Sliding Window
 - [3. Longest Substring Without Repeating Characters](medium/003-longest-substring-without-repeating-characters.py)
+- [1004. Max Consecutive Ones III](medium/1004-max-consecutive-ones-III.py)
 
 
 ### 🔴 Hard Problems
