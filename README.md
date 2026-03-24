@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 47      |
+| 🟢 Easy    | 48      |
 | 🟡 Medium  | 77      |
 | 🔴 Hard    | 13      |
-| **Total**  | **137**  |
+| **Total**  | **138**  |
 
 ## 🗂️ Repository Structure
 
@@ -179,12 +179,15 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [735. Asteroid Collision](medium/735-asteroid-collision.py)
 - [901. Online Stock Span (Monotonic Stack)](medium/901-online-stock-span.py)
 
-
 #### Infix/Prefix/Postfix
 - [150. Evaluate Reverse Polish Notation](medium/150-evaluate-reverse-polish-notation.py)
 - [227. Basic Calculator II](medium/227-basic-calculator-II.py)
 
 - [146. LRU Cache (Design)](medium/146-lru-cache.py)
+
+
+#### Sliding Window
+- [3. Longest Substring Without Repeating Characters](medium/003-longest-substring-without-repeating-characters.py)
 
 
 ### 🔴 Hard Problems
