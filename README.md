@@ -219,6 +219,14 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | 146 | [LRU Cache](medium/146-lru-cache.py)  | HashMap + Doubly Linked List           |
 | 460 | [LFU Cache](hard/460-lfu-cache.py)    | HashMap + Freq Buckets (DLL / OrdDict) |
 
+
+---
+
+### 🧩 Extra Problems (Topic-wise)
+
+#### Sliding Window
+- [01. Count Number of Substrings with K Distinct Chars](extra/sliding-window/01.count-number-of-substrings-with-k-distinct-chars.py)
+- [02. Fruit Into Baskets](extra/sliding-window/02.fruit-into-baskets.py)
 ---
 
 ## 📚 Topics to Explore
