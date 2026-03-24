@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 81      |
+| 🟡 Medium  | 82      |
 | 🔴 Hard    | 13      |
-| **Total**  | **141**  |
+| **Total**  | **142**  |
 
 ## 🗂️ Repository Structure
 
@@ -191,6 +191,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1004. Max Consecutive Ones III](medium/1004-max-consecutive-ones-III.py)
 - [424. Longest Repeating Character Replacement](medium/424-longest-repeating-character-replacement.py)
 - [930. Binary Subarrays With Sum](medium/930-binary-subarrays-with-sum.py)
+- [1248. Count Number of Nice Subarrays](medium/1248-count-number-of-nice-subarrays.py)
 
 
 ### 🔴 Hard Problems
