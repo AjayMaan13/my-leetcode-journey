@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 83      |
+| 🟡 Medium  | 84      |
 | 🔴 Hard    | 13      |
-| **Total**  | **143**  |
+| **Total**  | **144**  |
 
 ## 🗂️ Repository Structure
 
@@ -193,6 +193,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [930. Binary Subarrays With Sum](medium/930-binary-subarrays-with-sum.py)
 - [1248. Count Number of Nice Subarrays](medium/1248-count-number-of-nice-subarrays.py)
 - [1358. Number of Substrings Containing All Three Characters](medium/1358-substrings-with-all-three-chars.py)
+- [1423. Maximum Points You Can Obtain from Cards](medium/1423-max-points-from-cards.py)
 
 
 ### 🔴 Hard Problems
