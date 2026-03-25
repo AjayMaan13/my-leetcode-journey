@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 47      |
-| 🟡 Medium  | 82      |
+| 🟡 Medium  | 83      |
 | 🔴 Hard    | 13      |
-| **Total**  | **142**  |
+| **Total**  | **143**  |
 
 ## 🗂️ Repository Structure
 
@@ -192,6 +192,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [424. Longest Repeating Character Replacement](medium/424-longest-repeating-character-replacement.py)
 - [930. Binary Subarrays With Sum](medium/930-binary-subarrays-with-sum.py)
 - [1248. Count Number of Nice Subarrays](medium/1248-count-number-of-nice-subarrays.py)
+- [1358. Number of Substrings Containing All Three Characters](medium/1358-substrings-with-all-three-chars.py)
 
 
 ### 🔴 Hard Problems
@@ -206,6 +207,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [224. Basic Calculator](hard/224-basic-calculator.py)
 
 #### Stacks (Monotonic)
+
 - [42. Trapping Rain Water](hard/042-trapping-rain-water.py)
 - [84. Largest Rectangle in Histogram](hard/84-largest-rectangle-in-histogram.py)
 - [85. Maximal Rectangle](hard/085-maximal-rectangle.py)
@@ -227,9 +229,11 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🧩 Extra Problems (Topic-wise)
 
-#### Sliding Window
+#### Extra Sliding Window
+
 - [01. Count Number of Substrings with K Distinct Chars](extra/sliding-window/01.count-number-of-substrings-with-k-distinct-chars.py)
 - [02. Fruit Into Baskets](extra/sliding-window/02.fruit-into-baskets.py)
+
 ---
 
 ## 📚 Topics to Explore
