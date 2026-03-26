@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 47      |
 | 🟡 Medium  | 84      |
-| 🔴 Hard    | 14      |
-| **Total**  | **145**  |
+| 🔴 Hard    | 15      |
+| **Total**  | **146**  |
 
 ## 🗂️ Repository Structure
 
@@ -211,10 +211,14 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [42. Trapping Rain Water](hard/042-trapping-rain-water.py)
 - [84. Largest Rectangle in Histogram](hard/84-largest-rectangle-in-histogram.py)
-- [992. Subarrays with K Different Integers](hard/992-subarrays-with-k-different-integers.py)
 - [85. Maximal Rectangle](hard/085-maximal-rectangle.py)
 - [239. Sliding Window Maximum (Monotonic Deque)](hard/239-sliding-window-maximum.py)
 - [460. LFU Cache](hard/460-lfu-cache.py)
+
+#### Sliding Window
+
+- [992. Subarrays with K Different Integers](hard/992-subarrays-with-k-different-integers.py)
+- [76. Minimum Window Substring](hard/076-minimum-window-substring.py)
 
 
 ---
