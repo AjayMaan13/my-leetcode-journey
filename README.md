@@ -234,6 +234,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [01. Count Number of Substrings with K Distinct Chars](extra/sliding-window/01.count-number-of-substrings-with-k-distinct-chars.py)
 - [02. Fruit Into Baskets](extra/sliding-window/02.fruit-into-baskets.py)
+- [03. Longest Substring with At Most K Distinct Characters](extra/sliding-window/03.longest-substring-with-at-most-k-distinct-chars.py)
 
 ---
 
