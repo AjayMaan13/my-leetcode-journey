@@ -70,10 +70,40 @@ class SolutionOptimal(object):
         return count
 
 
+# ===== atMost Sliding Window — exactly(k) = atMost(k) - atMost(k-1) =====
+# Same trick as LC 930. Treat each number as 1 (odd) or 0 (even).
+# atMost(k): for each r, [l..r] is the largest window with <= k odds.
+#             There are (r - l + 1) subarrays ending at r with <= k odds.
+# Subtracting atMost(k-1) cancels windows with < k odds, leaving exactly k.
+# Time: O(n) | Space: O(1) — no hashmap needed
+
+class SolutionAtMost(object):
+    def numberOfSubarrays(self, nums, k):
+
+        def at_most(nums, k):
+            if k < 0:
+                return 0
+            l     = 0
+            odds  = 0
+            count = 0
+            for r in range(len(nums)):
+                if nums[r] % 2 != 0:
+                    odds += 1               # odd number enters window
+                while odds > k:             # too many odds — shrink from left
+                    if nums[l] % 2 != 0:
+                        odds -= 1           # odd number leaves window
+                    l += 1
+                count += r - l + 1          # all subarrays ending at r with <= k odds
+            return count
+
+        return at_most(nums, k) - at_most(nums, k - 1)
+
+
 # ===== Test Cases =====
 if __name__ == "__main__":
     brute   = SolutionBrute()
     optimal = SolutionOptimal()
+    at_most = SolutionAtMost()
 
     test_cases = [
         ([1, 1, 2, 1, 1],          3, 2),
@@ -87,5 +117,6 @@ if __name__ == "__main__":
     for nums, k, expected in test_cases:
         r1 = brute.numberOfSubarrays(nums[:], k)
         r2 = optimal.numberOfSubarrays(nums[:], k)
-        status = "PASS" if r1 == expected and r2 == expected else "FAIL"
-        print(f"{status} nums={nums} k={k} -> brute={r1}, optimal={r2} (expected {expected})")
+        r3 = at_most.numberOfSubarrays(nums[:], k)
+        status = "PASS" if r1 == expected and r2 == expected and r3 == expected else "FAIL"
+        print(f"{status} nums={nums} k={k} -> brute={r1}, prefix={r2}, at_most={r3} (expected {expected})")
