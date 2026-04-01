@@ -10,8 +10,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 48      |
-| 🟡 Medium  | 83      |
-| 🔴 Hard    | 17      |
+| 🟡 Medium  | 84      |
+| 🔴 Hard    | 16      |
 | **Total**  | **148**  |
 
 ## 🗂️ Repository Structure
