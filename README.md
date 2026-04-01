@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 47      |
-| 🟡 Medium  | 84      |
-| 🔴 Hard    | 15      |
-| **Total**  | **146**  |
+| 🟢 Easy    | 48      |
+| 🟡 Medium  | 83      |
+| 🔴 Hard    | 17      |
+| **Total**  | **148**  |
 
 ## 🗂️ Repository Structure
 
@@ -220,6 +220,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [992. Subarrays with K Different Integers](hard/992-subarrays-with-k-different-integers.py)
 - [76. Minimum Window Substring](hard/076-minimum-window-substring.py)
 
+#### Heaps
+
+- [23. Merge K Sorted Lists](hard/023-merge-k-sorted-lists.py)
 
 ---
 
