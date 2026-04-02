@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 48      |
-| 🟡 Medium  | 84      |
+| 🟡 Medium  | 86      |
 | 🔴 Hard    | 16      |
-| **Total**  | **148**  |
+| **Total**  | **150**  |
 
 ## 🗂️ Repository Structure
 
@@ -223,6 +223,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Heaps
 
 - [23. Merge K Sorted Lists](hard/023-merge-k-sorted-lists.py)
+- [621. Task Scheduler](medium/621-task-scheduler.py)
+- [846. Hand of Straights](medium/846-hand-of-straights.py)
+- [1296. Divide Array in Sets of K Consecutive Numbers](medium/1296-divide-array-in-k-consecutive-set.py)
 
 ---
 
