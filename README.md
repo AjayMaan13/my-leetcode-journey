@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 49      |
-| 🟡 Medium  | 87      |
+| 🟡 Medium  | 88      |
 | 🔴 Hard    | 16      |
-| **Total**  | **152**  |
+| **Total**  | **153**  |
 
 ## 🗂️ Repository Structure
 
@@ -203,6 +203,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [621. Task Scheduler](medium/621-task-scheduler.py)
 - [355. Design Twitter](medium/355-design-twitter.py)
+- [347. Top K Frequent Elements](medium/347-top-k-frequent-elements.py)
 
 
 ### 🔴 Hard Problems
