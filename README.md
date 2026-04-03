@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 48      |
-| 🟡 Medium  | 86      |
+| 🟡 Medium  | 87      |
 | 🔴 Hard    | 16      |
-| **Total**  | **150**  |
+| **Total**  | **151**  |
 
 ## 🗂️ Repository Structure
 
@@ -196,6 +196,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1423. Maximum Points You Can Obtain from Cards](medium/1423-max-points-from-cards.py)
 
 
+#### Heaps
+
+- [621. Task Scheduler](medium/621-task-scheduler.py)
+- [355. Design Twitter](medium/355-design-twitter.py)
+
+
 ### 🔴 Hard Problems
 
 - [493. Reverse Pairs](hard/493-reverse-pirs.py)
@@ -220,7 +226,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [992. Subarrays with K Different Integers](hard/992-subarrays-with-k-different-integers.py)
 - [76. Minimum Window Substring](hard/076-minimum-window-substring.py)
 
-#### Heaps
+#### Heaps (Hard)
 
 - [23. Merge K Sorted Lists](hard/023-merge-k-sorted-lists.py)
 - [621. Task Scheduler](medium/621-task-scheduler.py)
@@ -231,10 +237,11 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🎨 Design Problems
 
-| #   | Problem                               | Tag                                    |
-|-----|---------------------------------------|----------------------------------------|
-| 146 | [LRU Cache](medium/146-lru-cache.py)  | HashMap + Doubly Linked List           |
-| 460 | [LFU Cache](hard/460-lfu-cache.py)    | HashMap + Freq Buckets (DLL / OrdDict) |
+| #   | Problem                                        | Tag                                    |
+|-----|------------------------------------------------|----------------------------------------|
+| 146 | [LRU Cache](medium/146-lru-cache.py)           | HashMap + Doubly Linked List           |
+| 460 | [LFU Cache](hard/460-lfu-cache.py)             | HashMap + Freq Buckets (DLL / OrdDict) |
+| 355 | [Design Twitter](medium/355-design-twitter.py) | Per-user tweet lists + k-way merge heap |
 
 
 ---
