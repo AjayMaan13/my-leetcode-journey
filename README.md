@@ -237,10 +237,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 ### 🎨 Design Problems
 
-| #   | Problem                                        | Tag                                    |
-|-----|------------------------------------------------|----------------------------------------|
-| 146 | [LRU Cache](medium/146-lru-cache.py)           | HashMap + Doubly Linked List           |
-| 460 | [LFU Cache](hard/460-lfu-cache.py)             | HashMap + Freq Buckets (DLL / OrdDict) |
+| #   | Problem                                        | Tag                                     |
+|-----|------------------------------------------------|-----------------------------------------|
+| 146 | [LRU Cache](medium/146-lru-cache.py)           | HashMap + Doubly Linked List            |
+| 460 | [LFU Cache](hard/460-lfu-cache.py)             | HashMap + Freq Buckets (DLL / OrdDict)  |
 | 355 | [Design Twitter](medium/355-design-twitter.py) | Per-user tweet lists + k-way merge heap |
 
 
