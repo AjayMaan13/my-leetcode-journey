@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 48      |
+| 🟢 Easy    | 49      |
 | 🟡 Medium  | 87      |
 | 🔴 Hard    | 16      |
-| **Total**  | **151**  |
+| **Total**  | **152**  |
 
 ## 🗂️ Repository Structure
 
@@ -90,6 +90,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [232. Implement Queue using Stacks](easy/232-implement-queue-using-stacks.py)
 - [020. Valid Parentheses](easy/020-valid-parentheses.py)
 - [496. Next Greater Element I](easy/496-next-greater-element-I.py)
+
+#### Heap
+- [703. Kth Largest Element in a Stream](easy/703-kth-largest-element-in-stream.py)
 
 
 
