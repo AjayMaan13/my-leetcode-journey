@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 49      |
 | 🟡 Medium  | 88      |
-| 🔴 Hard    | 16      |
-| **Total**  | **153**  |
+| 🔴 Hard    | 17      |
+| **Total**  | **154**  |
 
 ## 🗂️ Repository Structure
 
@@ -236,6 +236,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [621. Task Scheduler](medium/621-task-scheduler.py)
 - [846. Hand of Straights](medium/846-hand-of-straights.py)
 - [1296. Divide Array in Sets of K Consecutive Numbers](medium/1296-divide-array-in-k-consecutive-set.py)
+- [295. Find Median from Data Stream](hard/295-find-mediam-from-data-stream.py)
 
 ---
 
