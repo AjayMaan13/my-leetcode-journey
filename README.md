@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 49      |
-| 🟡 Medium  | 88      |
+| 🟢 Easy    | 50      |
+| 🟡 Medium  | 89      |
 | 🔴 Hard    | 17      |
-| **Total**  | **154**  |
+| **Total**  | **156**  |
 
 ## 🗂️ Repository Structure
 
@@ -94,7 +94,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Heap
 - [703. Kth Largest Element in a Stream](easy/703-kth-largest-element-in-stream.py)
 
+#### Greedy
 
+- [455. Assign Cookies](easy/455-assign-cookies.py)
 
 ### 🟡 Medium Problems
 
@@ -173,6 +175,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [1390. Four Divisors](medium/1390-four-divisors.py)
 - [1492. The kth Factor of n](medium/1492-kth-factor-of-n.py)
 
+
 #### Stack / Monolithic Stacks
 - [155. Min Stack](medium/155-min-stack.py)
 - [907. Sum of Subarray Minimums (MONOTONIC)(IMP)](medium/907-sum-of-subarray-minimums.py)
@@ -204,6 +207,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [621. Task Scheduler](medium/621-task-scheduler.py)
 - [355. Design Twitter](medium/355-design-twitter.py)
 - [347. Top K Frequent Elements](medium/347-top-k-frequent-elements.py)
+
+
+#### Greedy (Medium)
+
+- [2410. Maximum Matching of Players With Trainers](medium/2410-maximum-matching-of-players-with-trainers.py)
+
 
 
 ### 🔴 Hard Problems
