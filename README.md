@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 51      |
-| 🟡 Medium  | 91      |
+| 🟡 Medium  | 92      |
 | 🔴 Hard    | 17      |
-| **Total**  | **159**  |
+| **Total**  | **160**  |
 
 ## 🗂️ Repository Structure
 
@@ -214,6 +214,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [2410. Maximum Matching of Players With Trainers](medium/2410-maximum-matching-of-players-with-trainers.py)
 - [678. Valid Parenthesis String](medium/678-valid-parenthesis-string.py)
+- [55. Jump Game](medium/055-jump-game.py)
 
 
 
