@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 50      |
-| 🟡 Medium  | 90      |
+| 🟢 Easy    | 51      |
+| 🟡 Medium  | 91      |
 | 🔴 Hard    | 17      |
-| **Total**  | **157**  |
+| **Total**  | **159**  |
 
 ## 🗂️ Repository Structure
 
@@ -97,6 +97,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Greedy
 
 - [455. Assign Cookies](easy/455-assign-cookies.py)
+- [860. Lemonade Change](easy/860-lemonade-change.py)
 
 ### 🟡 Medium Problems
 
@@ -212,6 +213,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Greedy (Medium)
 
 - [2410. Maximum Matching of Players With Trainers](medium/2410-maximum-matching-of-players-with-trainers.py)
+- [678. Valid Parenthesis String](medium/678-valid-parenthesis-string.py)
 
 
 
