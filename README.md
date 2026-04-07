@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 50      |
-| 🟡 Medium  | 89      |
+| 🟡 Medium  | 90      |
 | 🔴 Hard    | 17      |
-| **Total**  | **156**  |
+| **Total**  | **157**  |
 
 ## 🗂️ Repository Structure
 
@@ -212,6 +212,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Greedy (Medium)
 
 - [2410. Maximum Matching of Players With Trainers](medium/2410-maximum-matching-of-players-with-trainers.py)
+
+
+
+#### Dynamic Programming
+
+- [322. Coin Change](medium/322-coin-change.py)
 
 
 
