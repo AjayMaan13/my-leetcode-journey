@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 50      |
 | 🟡 Medium  | 94      |
-| 🔴 Hard    | 17      |
-| **Total**  | **161**  |
+| 🔴 Hard    | 18      |
+| **Total**  | **162**  |
 
 ## 🗂️ Repository Structure
 
@@ -256,6 +256,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [846. Hand of Straights](medium/846-hand-of-straights.py)
 - [1296. Divide Array in Sets of K Consecutive Numbers](medium/1296-divide-array-in-k-consecutive-set.py)
 - [295. Find Median from Data Stream](hard/295-find-mediam-from-data-stream.py)
+
+#### Greedy (Hard)
+
+- [135. Candy](hard/135-candy.py)
 
 ---
 
