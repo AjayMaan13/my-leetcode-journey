@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 50      |
-| 🟡 Medium  | 94      |
+| 🟡 Medium  | 95      |
 | 🔴 Hard    | 18      |
-| **Total**  | **162**  |
+| **Total**  | **163**  |
 
 ## 🗂️ Repository Structure
 
@@ -122,7 +122,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [229. Majority Element II !!](medium/229-majority-element-II.py)
 - [15. 3 Sum](medium/015-3sum.py)
 - [18. 4 Sum + K Sum(IMP)](medium/018-4sum-ksum.py)
-- [56. Merge Intervals](medium/056-merge-intervals.py)
 - [152. Maximum Product Subarray](medium/152-maximum-product-subarray.py)
 - [034. Find First and Last Position of Element in Sorted Array !](medium/034-find-first-and-last-position.py)
 - [033. Search in Rotated Sorted Array I !](medium/033-search-in-rotated-sorted-array.py)
@@ -216,7 +215,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [678. Valid Parenthesis String](medium/678-valid-parenthesis-string.py)
 - [55. Jump Game](medium/055-jump-game.py)
 - [45. Jump Game II](medium/045-jump-game-II.py)
-
+- [57. Insert Interval](medium/057-insert-interval.py)
+- [56. Merge Intervals](medium/056-merge-intervals.py)
 
 
 #### Dynamic Programming
