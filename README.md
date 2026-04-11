@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 50      |
+| 🟢 Easy    | 51      |
 | 🟡 Medium  | 95      |
 | 🔴 Hard    | 18      |
-| **Total**  | **163**  |
+| **Total**  | **164**  |
 
 ## 🗂️ Repository Structure
 
@@ -217,6 +217,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [45. Jump Game II](medium/045-jump-game-II.py)
 - [57. Insert Interval](medium/057-insert-interval.py)
 - [56. Merge Intervals](medium/056-merge-intervals.py)
+- [435. Non-overlapping Intervals](medium/435-non-overlapping-intervals.py)
 
 
 #### Dynamic Programming
