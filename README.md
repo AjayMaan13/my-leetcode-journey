@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 51      |
+| 🟢 Easy    | 53      |
 | 🟡 Medium  | 95      |
 | 🔴 Hard    | 18      |
-| **Total**  | **164**  |
+| **Total**  | **166**  |
 
 ## 🗂️ Repository Structure
 
@@ -98,6 +98,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [455. Assign Cookies](easy/455-assign-cookies.py)
 - [860. Lemonade Change](easy/860-lemonade-change.py)
+
+#### Trees
+- [94. Binary Tree Inorder Traversal](easy/094-binary-tree-inorder-traversal.py)
+- [144. Binary Tree Preorder Traversal](easy/144-binary-tree-preorder-traversal.py)
+
+
 
 ### 🟡 Medium Problems
 
