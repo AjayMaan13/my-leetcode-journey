@@ -26,7 +26,25 @@ class TreeNode(object):
         self.right = right
 
 class Solution(object):
-    # My Solution
+    # My Initial Solution
+    def maxDepth(self, root):
+        """
+        :type root: Optional[TreeNode]
+        :rtype: int
+        """
+
+        if not root:
+            return 0
+
+        def dfs(root, depth):
+            left = right = depth
+            if root.left: left = dfs(root.left, depth + 1)
+            if root.right: right = dfs(root.right, depth + 1)
+
+            return max(depth, left, right)
+
+        return dfs(root, 1)
+    # My Optimized Solution
     def maxDepth(self, root):
         if not root:
             return 0
