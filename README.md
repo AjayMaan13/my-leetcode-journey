@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 54      |
+| 🟢 Easy    | 55      |
 | 🟡 Medium  | 95      |
 | 🔴 Hard    | 18      |
-| **Total**  | **167**  |
+| **Total**  | **168**  |
 
 ## 🗂️ Repository Structure
 
@@ -44,7 +44,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [392. Is Sequence](easy/392-is-sequence.py)
 - [383. Ransom Note](easy/383-ransom-note.py)
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
-- [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 - [100. Is Same Tree](easy/100-is-same-tree.py)
 - [100. Symmetric Tree](easy/101-symmetric-tree.py)
 - [226. Invert Binary Tree](easy/226-invert-binary-tree.py)
@@ -101,9 +100,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Trees
 - [94. Binary Tree Inorder Traversal](easy/094-binary-tree-inorder-traversal.py)
+- [110. Balanced Binary Tree](easy/110-balanced-binary-tree.py)
 - [144. Binary Tree Preorder Traversal](easy/144-binary-tree-preorder-traversal.py)
 - [145. Binary Tree Postorder Traversal](easy/145-binary-tree-postorder-traversal.py)
-
+- [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 
 
 ### 🟡 Medium Problems
