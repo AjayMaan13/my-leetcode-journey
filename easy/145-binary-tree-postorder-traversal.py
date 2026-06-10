@@ -49,6 +49,39 @@ class Solution(object):
         return res[::-1]
 
 
+# Recursive — pass result list as parameter instead of a nested helper
+class Solution(object):
+    def postorderTraversal(self, root, result=None):
+        if result is None:
+            result = []
+        if not root:
+            return result
+        self.postorderTraversal(root.left, result)
+        self.postorderTraversal(root.right, result)
+        result.append(root.val)
+        return result
+
+
+# Iterative 2-stack solution
+# st1 drives traversal (root→right→left order); st2 collects in reverse → postorder on pop.
+class Solution(object):
+    def postorderTraversal(self, root):
+        if not root:
+            return []
+
+        st1, st2 = [root], []
+
+        while st1:
+            node = st1.pop()
+            st2.append(node)
+            if node.left:
+                st1.append(node.left)
+            if node.right:
+                st1.append(node.right)
+
+        return [node.val for node in reversed(st2)]
+
+
 # ✅ Build tree from list (level order)
 def buildTree(values):
     if not values:

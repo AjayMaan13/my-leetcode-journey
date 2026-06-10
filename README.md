@@ -291,6 +291,12 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [02. Fruit Into Baskets](extra/sliding-window/02.fruit-into-baskets.py)
 - [03. Longest Substring with At Most K Distinct Characters](extra/sliding-window/03.longest-substring-with-at-most-k-distinct-chars.py)
 
+#### Extra Trees
+
+- [01. Preorder Inorder Postorder in One Traversal](Extra/trees/01.preorder-inorder-postorder-in-one-traversal.py)
+- [02. Iterative Postorder Traversal Using 2 Stacks](Extra/trees/02.iterative-postorder-2-stacks.py)
+- [03. Postorder Traversal Recursive (result as param)](Extra/trees/03.postorder-traversal-recursive.py)
+
 ---
 
 ## 📚 Topics to Explore
