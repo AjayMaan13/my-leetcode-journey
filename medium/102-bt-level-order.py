@@ -23,7 +23,6 @@ Constraints:
 - -1000 <= Node.val <= 1000
 """
 
-from collections import deque
 
 # Definition for a binary tree node.
 class TreeNode(object):
@@ -32,7 +31,7 @@ class TreeNode(object):
         self.left = left
         self.right = right
 
-
+from collections import deque
 class Solution(object):
     def levelOrder(self, root):
         """
@@ -65,6 +64,25 @@ class Solution(object):
             result.append(current_level)
 
         return result
+
+
+# DFS approach — track depth to place each node in the right bucket
+class Solution(object):
+    def levelOrder(self, root):
+        if not root:
+            return []
+
+        res = []
+
+        def dfs(node, depth):
+            if len(res) < depth + 1:
+                res.append([])
+            res[depth].append(node.val)
+            if node.left: dfs(node.left, depth + 1)
+            if node.right: dfs(node.right, depth + 1)
+
+        dfs(root, 0)
+        return res
 
 
 """

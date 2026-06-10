@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 53      |
+| 🟢 Easy    | 54      |
 | 🟡 Medium  | 95      |
 | 🔴 Hard    | 18      |
-| **Total**  | **166**  |
+| **Total**  | **167**  |
 
 ## 🗂️ Repository Structure
 
@@ -102,6 +102,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Trees
 - [94. Binary Tree Inorder Traversal](easy/094-binary-tree-inorder-traversal.py)
 - [144. Binary Tree Preorder Traversal](easy/144-binary-tree-preorder-traversal.py)
+- [145. Binary Tree Postorder Traversal](easy/145-binary-tree-postorder-traversal.py)
 
 
 
@@ -112,7 +113,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [126. Two Sum II](medium/126-two-sum-II.py)
 - [199. Binary Tree Right Side View](medium/199-binary-tree-right-side-view.py)
 - [98. Validate Binary Search Tree](medium/96-validate-bst.py)
-- [102. Binary Tree Level Order Traversal](medium/102-bt-level-order.py)
 - [129. Sum Root to Leaf Numbers](medium/129-sum-root-to-leaf.py)
 - [103. Binary Tree Zigzag Level Order Traversal](medium/103-bt-zigzag.py)
 - [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
@@ -225,6 +225,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [56. Merge Intervals](medium/056-merge-intervals.py)
 - [435. Non-overlapping Intervals](medium/435-non-overlapping-intervals.py)
 
+#### Trees
+- [102. Binary Tree Level Order Traversal](medium/102-bt-level-order.py)
 
 #### Dynamic Programming
 
