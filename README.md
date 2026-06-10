@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 55      |
+| 🟢 Easy    | 56      |
 | 🟡 Medium  | 95      |
 | 🔴 Hard    | 18      |
-| **Total**  | **168**  |
+| **Total**  | **169**  |
 
 ## 🗂️ Repository Structure
 
@@ -100,10 +100,11 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### Trees
 - [94. Binary Tree Inorder Traversal](easy/094-binary-tree-inorder-traversal.py)
-- [110. Balanced Binary Tree](easy/110-balanced-binary-tree.py)
 - [144. Binary Tree Preorder Traversal](easy/144-binary-tree-preorder-traversal.py)
 - [145. Binary Tree Postorder Traversal](easy/145-binary-tree-postorder-traversal.py)
+- [110. Balanced Binary Tree](easy/110-balanced-binary-tree.py)
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
+- [543. Diameter of Binary Tree](easy/543-diameter-of-binary-tree.py)
 
 
 ### 🟡 Medium Problems
