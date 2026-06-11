@@ -44,7 +44,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [392. Is Sequence](easy/392-is-sequence.py)
 - [383. Ransom Note](easy/383-ransom-note.py)
 - [206. Reverse Linked List](easy/206-reverse-linked-list.py)
-- [100. Is Same Tree](easy/100-is-same-tree.py)
+
 - [100. Symmetric Tree](easy/101-symmetric-tree.py)
 - [226. Invert Binary Tree](easy/226-invert-binary-tree.py)
 - [112. Path Sum](./easy/112-path-sum.py)
@@ -105,6 +105,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [110. Balanced Binary Tree](easy/110-balanced-binary-tree.py)
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 - [543. Diameter of Binary Tree](easy/543-diameter-of-binary-tree.py)
+- [100. Is Same Tree](easy/100-is-same-tree.py)
 
 
 ### 🟡 Medium Problems
@@ -301,6 +302,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [01. Preorder Inorder Postorder in One Traversal](Extra/trees/01.preorder-inorder-postorder-in-one-traversal.py)
 - [02. Iterative Postorder Traversal Using 2 Stacks](Extra/trees/02.iterative-postorder-2-stacks.py)
 - [03. Postorder Traversal Recursive (result as param)](Extra/trees/03.postorder-traversal-recursive.py)
+- [04. Boundary Traversal of Binary Tree](Extra/trees/04.boundary-traversal-of-binary-tree.py)
 
 ---
 
