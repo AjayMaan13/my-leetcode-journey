@@ -306,6 +306,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [04. Boundary Traversal of Binary Tree](Extra/trees/04.boundary-traversal-of-binary-tree.py)
 - [05. Top View of Binary Tree](Extra/trees/05.top-view-of-binary-tree.py)
 - [06. Bottom View of Binary Tree](Extra/trees/06.bottom-view-of-binary-tree.py)
+- [07. Root to Node Path](Extra/trees/07.root-to-node-path.py)
 
 ---
 
