@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 56      |
-| 🟡 Medium  | 96      |
+| 🟡 Medium  | 97      |
 | 🔴 Hard    | 20      |
-| **Total**  | **172**  |
+| **Total**  | **173**  |
 
 ## 🗂️ Repository Structure
 
@@ -230,6 +230,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Trees
 - [102. Binary Tree Level Order Traversal](medium/102-bt-level-order.py)
 - [236. Lowest Common Ancestor of a Binary Tree](medium/236-lowest-common-ancestor.py)
+- [662. Maximum Width of Binary Tree](medium/662-maximum-width-of-binary-tree.py)
 
 #### Dynamic Programming
 
