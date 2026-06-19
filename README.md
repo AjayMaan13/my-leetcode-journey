@@ -304,6 +304,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [02. Iterative Postorder Traversal Using 2 Stacks](Extra/trees/02.iterative-postorder-2-stacks.py)
 - [03. Postorder Traversal Recursive (result as param)](Extra/trees/03.postorder-traversal-recursive.py)
 - [04. Boundary Traversal of Binary Tree](Extra/trees/04.boundary-traversal-of-binary-tree.py)
+- [05. Top View of Binary Tree](Extra/trees/05.top-view-of-binary-tree.py)
 
 ---
 
