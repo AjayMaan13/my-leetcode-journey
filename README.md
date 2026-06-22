@@ -50,7 +50,6 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [112. Path Sum](./easy/112-path-sum.py)
 - [647. Average of Levels in Binary Tree](./easy/637-average-of-levels.py)
 - [530. Minimum Absolute Difference in BST](./easy/530-minimum-absolute-difference.py)
-- [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
 - [1752. Check if Array Is Sorted and Rotated](easy/1752-array-sorted-and-rotated.py)
 - [283. Move Zeroes](easy/283-move-zeroes.py)
 - [268. Missing Number](easy/268-missing-number.py)
@@ -106,6 +105,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [104. Maximum Depth of a Binary Tree](easy/104-maximum-depth-of-binary-tree.py)
 - [543. Diameter of Binary Tree](easy/543-diameter-of-binary-tree.py)
 - [100. Is Same Tree](easy/100-is-same-tree.py)
+- [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
+
 
 
 ### 🟡 Medium Problems
@@ -311,6 +312,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [06. Bottom View of Binary Tree](Extra/trees/06.bottom-view-of-binary-tree.py)
 - [07. Root to Node Path](Extra/trees/07.root-to-node-path.py)
 - [08. Children Sum Property](Extra/trees/08.children-sum-property.py)
+- [09. Minimum Time to Burn Binary Tree from a Node](Extra/trees/09.min-time-to-burn-binary-tree.py)
 
 ---
 
