@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 56      |
-| 🟡 Medium  | 98      |
+| 🟡 Medium  | 99      |
 | 🔴 Hard    | 20      |
-| **Total**  | **174**  |
+| **Total**  | **175**  |
 
 ## 🗂️ Repository Structure
 
@@ -233,6 +233,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [236. Lowest Common Ancestor of a Binary Tree](medium/236-lowest-common-ancestor.py)
 - [662. Maximum Width of Binary Tree](medium/662-maximum-width-of-binary-tree.py)
 - [863. All Nodes Distance K in Binary Tree](medium/863-all-nodes-distance-k.py)
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](medium/105-construct-binary-tree-from-preorder-inorder.py)
 
 #### Dynamic Programming
 
