@@ -315,6 +315,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [07. Root to Node Path](Extra/trees/07.root-to-node-path.py)
 - [08. Children Sum Property](Extra/trees/08.children-sum-property.py)
 - [09. Minimum Time to Burn Binary Tree from a Node](Extra/trees/09.min-time-to-burn-binary-tree.py)
+- [10. Morris Inorder Traversal](Extra/trees/10.morris-inorder-traversal.py)
+- [11. Morris Preorder Traversal](Extra/trees/11.morris-preorder-traversal.py)
 
 ---
 
