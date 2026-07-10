@@ -117,11 +117,11 @@ def morrisInorder(root):
             while pred.right and pred.right is not curr:
                 pred = pred.right
 
-            if pred.right is None:
+            if pred.right is None: # first time visiting that part
                 # B1: thread not set — create it and dive left
                 pred.right = curr
                 curr = curr.left
-            else:
+            else: # second visit
                 # B2: thread exists — left subtree done, visit curr
                 pred.right = None       # remove thread (restore tree)
                 result.append(curr.val)

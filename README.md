@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 56      |
-| 🟡 Medium  | 100     |
+| 🟡 Medium  | 101     |
 | 🔴 Hard    | 20      |
-| **Total**  | **176**  |
+| **Total**  | **177**  |
 
 ## 🗂️ Repository Structure
 
@@ -235,6 +235,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [863. All Nodes Distance K in Binary Tree](medium/863-all-nodes-distance-k.py)
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](medium/105-construct-binary-tree-from-preorder-inorder.py)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](medium/106-construct-binary-tree-from-inorder-postorder.py)
+- [114. Flatten Binary Tree to Linked List](medium/114-flatten-binary-tree-to-linked-list.py)
 
 #### Dynamic Programming
 
