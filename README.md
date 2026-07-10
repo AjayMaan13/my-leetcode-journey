@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 57      |
+| 🟢 Easy    | 58      |
 | 🟡 Medium  | 106     |
 | 🔴 Hard    | 21      |
-| **Total**  | **184**  |
+| **Total**  | **185**  |
 
 ## 🗂️ Repository Structure
 
@@ -114,6 +114,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### BST (Easy)
 
 - [700. Search in a Binary Search Tree](easy/700-search-in-bst.py)
+- [653. Two Sum IV - Input is a BST](easy/653-two-sum-iv-bst.py)
 
 ### 🟡 Medium Problems
 
