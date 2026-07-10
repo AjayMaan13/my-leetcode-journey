@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 57      |
-| 🟡 Medium  | 102     |
+| 🟡 Medium  | 103     |
 | 🔴 Hard    | 21      |
-| **Total**  | **180**  |
+| **Total**  | **181**  |
 
 ## 🗂️ Repository Structure
 
@@ -244,6 +244,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### BST (Medium)
 
 - [701. Insert into a Binary Search Tree](medium/701-insert-into-bst.py)
+- [450. Delete Node in a BST](medium/450-delete-node-in-bst.py)
 
 #### Dynamic Programming
 
