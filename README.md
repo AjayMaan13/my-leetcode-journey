@@ -9,10 +9,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | 56      |
+| 🟢 Easy    | 57      |
 | 🟡 Medium  | 101     |
 | 🔴 Hard    | 21      |
-| **Total**  | **178**  |
+| **Total**  | **179**  |
 
 ## 🗂️ Repository Structure
 
@@ -107,7 +107,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [100. Is Same Tree](easy/100-is-same-tree.py)
 - [222. Count Complete Tree Nodes](easy/222-count-tree-nodes.py)
 
+#### BST (Easy)
 
+- [700. Search in a Binary Search Tree](easy/700-search-in-bst.py)
 
 ### 🟡 Medium Problems
 
