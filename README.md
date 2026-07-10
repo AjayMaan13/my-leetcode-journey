@@ -119,10 +119,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [189. Rotate Array](/medium/189-rotate-array.py)
 - [126. Two Sum II](medium/126-two-sum-II.py)
 - [199. Binary Tree Right Side View](medium/199-binary-tree-right-side-view.py)
-- [98. Validate Binary Search Tree](medium/96-validate-bst.py)
 - [129. Sum Root to Leaf Numbers](medium/129-sum-root-to-leaf.py)
 - [103. Binary Tree Zigzag Level Order Traversal](medium/103-bt-zigzag.py)
-- [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 - [75. Sort Numbers](medium/075-sort-numbers.py)
 - [53. Maximum Subarray](medium/053-maximum-subarray.py)
 - [2149. Rearrange Array Element by Sign](medium/2149-rearrange-array-element-by-sign.py)
@@ -243,6 +241,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 #### BST (Medium)
 
+- [98. Validate Binary Search Tree](medium/098-validate-bst.py)
+- [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 - [701. Insert into a Binary Search Tree](medium/701-insert-into-bst.py)
 - [450. Delete Node in a BST](medium/450-delete-node-in-bst.py)
 

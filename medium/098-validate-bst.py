@@ -97,6 +97,77 @@ class Solution(object):
         return inorder(root)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# ✅ Solution 3 — bounds-check recursive (range propagation)
+#
+# Pass down valid [low, high) range for each node.
+# Left subtree: upper bound tightens to parent value.
+# Right subtree: lower bound tightens to parent value.
+# ─────────────────────────────────────────────────────────────────────────────
+class Solution(object):
+    def isValidBST(self, root):
+        def helper(node, low, high):
+            if not node:
+                return True
+            if not (low < node.val < high):
+                return False
+            return helper(node.left, low, node.val) and helper(node.right, node.val, high)
+        return helper(root, float('-inf'), float('inf'))
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ✅ Solution 4 — iterative inorder with explicit stack
+#
+# Same logic as Solution 2 but avoids Python recursion stack.
+# Walk left as far as possible, then pop and check against prev.
+# ─────────────────────────────────────────────────────────────────────────────
+class Solution(object):
+    def isValidBST(self, root):
+        stack, curr, prev = [], root, None
+        while stack or curr:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+            curr = stack.pop()
+            if prev is not None and curr.val <= prev:
+                return False
+            prev = curr.val
+            curr = curr.right
+        return True
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ✅ Solution 5 — Morris inorder (O(1) space, no stack, no recursion)
+#
+# Thread each node's inorder predecessor's right pointer back to the node.
+# When we arrive via the thread we unthread, visit, and move right.
+# ─────────────────────────────────────────────────────────────────────────────
+class Solution(object):
+    def isValidBST(self, root):
+        prev, curr = None, root
+        while curr:
+            if curr.left is None:
+                if prev is not None and curr.val <= prev:
+                    return False
+                prev = curr.val
+                curr = curr.right
+            else:
+                # find inorder predecessor
+                pred = curr.left
+                while pred.right and pred.right != curr:
+                    pred = pred.right
+                if pred.right is None:
+                    pred.right = curr       # thread: will return here later
+                    curr = curr.left
+                else:
+                    pred.right = None       # unthread
+                    if prev is not None and curr.val <= prev:
+                        return False
+                    prev = curr.val
+                    curr = curr.right
+        return True
+
+
 # ---------------------------
 # 🔹 Example to understand in-place check
 # ---------------------------

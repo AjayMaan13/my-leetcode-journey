@@ -90,7 +90,82 @@ class Solution(object):
         inorder(root)
         return self.result
 
+class Solution(object):
+    def kthSmallest(self, root, k):
+        """
+        :type root: Optional[TreeNode]
+        :type k: int
+        :rtype: int
+        """
+        stack = []
+        curr = root
 
+        while stack or curr:
+            # phase 1: go as far left as possible, pushing every
+            # node along the way so we can come back to it later
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+
+            # phase 2: no more left to explore — pop the most
+            # recently pushed node, this is the next node in
+            # ascending order (the "visit")
+            curr = stack.pop()
+            k -= 1
+            if k == 0:
+                return curr.val
+
+            # phase 3: left subtree (and this node) are done,
+            # now explore the right subtree
+            curr = curr.right
+
+        return -1  # k was larger than the number of nodes in the tree
+class Solution(object):
+    def kthSmallest(self, root, k):
+        """
+        :type root: Optional[TreeNode]
+        :type k: int
+        :rtype: int
+        """
+        count = 0       # tracks how many nodes we've visited in ascending order
+        curr = root
+
+        while curr:
+            if curr.left is None:
+                # no left subtree to explore — this node is next in
+                # ascending order, so it's a real visit
+                count += 1
+                if count == k:
+                    return curr.val
+                curr = curr.right          # nothing more on the left, move right
+
+            else:
+                # find the inorder predecessor: rightmost node of
+                # curr's left subtree — this is where we'll thread
+                # a temporary pointer back to curr
+                pred = curr.left
+                while pred.right and pred.right != curr:
+                    pred = pred.right
+
+                if pred.right is None:
+                    # first time arriving at curr — thread it so we
+                    # can find our way back after exploring the left
+                    # subtree, then dive left
+                    pred.right = curr
+                    curr = curr.left
+
+                else:
+                    # second time arriving at curr — the thread led us
+                    # back here, meaning the left subtree is fully done.
+                    # remove the thread (restore original tree shape),
+                    # then this is a real visit
+                    pred.right = None
+                    count += 1
+                    if count == k:
+                        return curr.val
+                    curr = curr.right       # left subtree done, move right
+
+        return -1  # k was larger than the number of nodes in the tree
 
 # -------------------------------
 # Helper Functions for Testing
