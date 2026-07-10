@@ -243,6 +243,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [98. Validate Binary Search Tree](medium/098-validate-bst.py)
 - [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
+- [235. Lowest Common Ancestor of a BST](medium/235-lca-of-bst.py)
 - [701. Insert into a Binary Search Tree](medium/701-insert-into-bst.py)
 - [450. Delete Node in a BST](medium/450-delete-node-in-bst.py)
 
