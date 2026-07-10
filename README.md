@@ -27,7 +27,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 │   ├── sliding-window/   - Sliding window patterns
 │   ├── recursion/        - Recursion patterns
 │   ├── Linked-List/      - Linked list extras
-│   └── greedy/           - Greedy & elimination problems
+│   ├── greedy/           - Greedy & elimination problems
+│   ├── trees/            - Binary tree patterns
+│   └── bst/              - Binary search tree patterns
 └── README.md             - This file with topic index
 ```
 
@@ -321,6 +323,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [09. Minimum Time to Burn Binary Tree from a Node](Extra/trees/09.min-time-to-burn-binary-tree.py)
 - [10. Morris Inorder Traversal](Extra/trees/10.morris-inorder-traversal.py)
 - [11. Morris Preorder Traversal](Extra/trees/11.morris-preorder-traversal.py)
+
+#### Extra BST
+
+- [01. Floor and Ceil of BST](Extra/bst/01.floor-and-ceil-of-bst.py)
 
 ---
 
