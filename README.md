@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 57      |
-| 🟡 Medium  | 103     |
+| 🟡 Medium  | 106     |
 | 🔴 Hard    | 21      |
-| **Total**  | **181**  |
+| **Total**  | **184**  |
 
 ## 🗂️ Repository Structure
 
@@ -30,6 +30,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 │   ├── greedy/           - Greedy & elimination problems
 │   ├── trees/            - Binary tree patterns
 │   └── bst/              - Binary search tree patterns
+├── important/            - High-priority problems for revision
+│   └── bst/              - Important BST patterns
 └── README.md             - This file with topic index
 ```
 
@@ -244,6 +246,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [98. Validate Binary Search Tree](medium/098-validate-bst.py)
 - [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 - [235. Lowest Common Ancestor of a BST](medium/235-lca-of-bst.py)
+- [173. Binary Search Tree Iterator](medium/173-bst-iterator.py)
 - [1008. Construct BST from Preorder Traversal](medium/1008-construct-bst-from-preorder.py)
 - [701. Insert into a Binary Search Tree](medium/701-insert-into-bst.py)
 - [450. Delete Node in a BST](medium/450-delete-node-in-bst.py)
@@ -335,6 +338,16 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [01. Floor and Ceil of BST](Extra/bst/01.floor-and-ceil-of-bst.py)
 - [02. Predecessor and Successor in BST](Extra/bst/02.predecessor-and-successor-in-bst.py)
+- [03. BST Iterator](Extra/bst/03.bst-iterator.py)
+- [04. Merge Two BSTs](Extra/bst/04.merge-two-bsts.py)
+
+---
+
+### ⭐ Important Revision
+
+#### Important BST
+
+- [01. BST Iterator — push-left spine pattern (IMP)](important/bst/01.bst-iterator.py)
 
 ---
 
