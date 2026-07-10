@@ -11,8 +11,8 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 |------------|--------|
 | 🟢 Easy    | 56      |
 | 🟡 Medium  | 101     |
-| 🔴 Hard    | 20      |
-| **Total**  | **177**  |
+| 🔴 Hard    | 21      |
+| **Total**  | **178**  |
 
 ## 🗂️ Repository Structure
 
@@ -279,6 +279,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 
 - [124. Binary Tree Maximum Path Sum](hard/124-binary-tree-maximum-path-sum.py)
 - [987. Vertical Order Traversal of a Binary Tree](hard/987-vertical-order-traversal.py)
+- [297. Serialize and Deserialize Binary Tree](hard/297-serialize-and-deserialize-binary-tree.py)
 
 #### Greedy (Hard)
 
