@@ -334,6 +334,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### Extra BST
 
 - [01. Floor and Ceil of BST](Extra/bst/01.floor-and-ceil-of-bst.py)
+- [02. Predecessor and Successor in BST](Extra/bst/02.predecessor-and-successor-in-bst.py)
 
 ---
 
