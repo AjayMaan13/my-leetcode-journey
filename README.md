@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 57      |
-| 🟡 Medium  | 101     |
+| 🟡 Medium  | 102     |
 | 🔴 Hard    | 21      |
-| **Total**  | **179**  |
+| **Total**  | **180**  |
 
 ## 🗂️ Repository Structure
 
@@ -240,6 +240,10 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 - [105. Construct Binary Tree from Preorder and Inorder Traversal](medium/105-construct-binary-tree-from-preorder-inorder.py)
 - [106. Construct Binary Tree from Inorder and Postorder Traversal](medium/106-construct-binary-tree-from-inorder-postorder.py)
 - [114. Flatten Binary Tree to Linked List](medium/114-flatten-binary-tree-to-linked-list.py)
+
+#### BST (Medium)
+
+- [701. Insert into a Binary Search Tree](medium/701-insert-into-bst.py)
 
 #### Dynamic Programming
 
