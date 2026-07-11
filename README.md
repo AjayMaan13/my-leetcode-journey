@@ -10,9 +10,9 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy    | 58      |
-| 🟡 Medium  | 106     |
+| 🟡 Medium  | 107     |
 | 🔴 Hard    | 21      |
-| **Total**  | **185**  |
+| **Total**  | **186**  |
 
 ## 🗂️ Repository Structure
 
@@ -245,6 +245,7 @@ Welcome to my coding practice repository! Starting my journey to improve problem
 #### BST (Medium)
 
 - [98. Validate Binary Search Tree](medium/098-validate-bst.py)
+- [99. Recover Binary Search Tree](medium/099-recover-bst.py)
 - [230. Kth Smallest Element in a BST](medium/230-k-smallest-element.py)
 - [235. Lowest Common Ancestor of a BST](medium/235-lca-of-bst.py)
 - [173. Binary Search Tree Iterator](medium/173-bst-iterator.py)
